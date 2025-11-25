@@ -12,7 +12,7 @@ Copiloto Legal es un chatbot inteligente que combina búsqueda semántica vector
 - ✅ **Grounding**: Respuestas fundamentadas exclusivamente en documentos legales
 - ✅ **Citación automática**: Todas las respuestas incluyen fuentes verificables
 - ✅ **Base vectorial**: ChromaDB para búsqueda semántica eficiente
-- ✅ **IA avanzada**: Google Gemini (gemini-embedding-001 y gemini-2.0-flash)
+- ✅ **IA avanzada**: Google Gemini (gemini-embedding-001 y gemini-2.5-flash)
 - ✅ **Interfaz moderna**: UI responsive con Tailwind CSS
 - ✅ **Dockerizado**: Despliegue simple con Docker Compose
 
@@ -116,7 +116,7 @@ code/
 
 ### 2. GeminiService (`services/gemini_service.py`)
 - Genera embeddings con `gemini-embedding-001`
-- Genera respuestas con `gemini-2.0-flash`
+- Genera respuestas con `gemini-2.5-flash`
 - Maneja la configuración de la API
 
 ### 3. ChatService (`services/chat_service.py`)
@@ -221,15 +221,6 @@ Al iniciar la aplicación Flask, se ejecuta automáticamente el script `scripts/
 ## 📄 Licencia
 
 Este proyecto es de código abierto y está disponible bajo la licencia MIT.
-
-## 👥 Contribuciones
-
-Las contribuciones son bienvenidas. Por favor:
-1. Fork el repositorio
-2. Crea una rama para tu feature (`git checkout -b feature/nueva-funcionalidad`)
-3. Commit tus cambios (`git commit -m 'Agrega nueva funcionalidad'`)
-4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
-5. Abre un Pull Request
 
 ## 📧 Contacto
 

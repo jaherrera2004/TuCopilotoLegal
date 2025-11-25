@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copiloto Legal | Asistente de Transito</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='25' y='30' width='50' height='45' rx='8' fill='%236366f1' stroke='%23818cf8' stroke-width='2'/%3E%3Cline x1='50' y1='20' x2='50' y2='30' stroke='%236366f1' stroke-width='3' stroke-linecap='round'/%3E%3Ccircle cx='50' cy='18' r='4' fill='%23a5b4fc'/%3E%3Ccircle cx='38' cy='45' r='5' fill='white'/%3E%3Ccircle cx='62' cy='45' r='5' fill='white'/%3E%3Ccircle cx='38' cy='45' r='2' fill='%23312e81'/%3E%3Ccircle cx='62' cy='45' r='2' fill='%23312e81'/%3E%3Cpath d='M 35 60 Q 50 65 65 60' stroke='white' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3Crect x='30' y='75' width='40' height='20' rx='4' fill='%236366f1' stroke='%23818cf8' stroke-width='2'/%3E%3Crect x='15' y='78' width='12' height='6' rx='3' fill='%23818cf8'/%3E%3Crect x='73' y='78' width='12' height='6' rx='3' fill='%23818cf8'/%3E%3C/svg%3E">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom scrollbar */
+        .chat-scroll::-webkit-scrollbar {
+            width: 6px;
+        }
+        .chat-scroll::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .chat-scroll::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 3px;
+        }
+        .chat-scroll::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+        
+        /* Smooth fade in animation */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(8px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .message-fade {
+            animation: fadeInUp 0.25s ease-out;
+        }
+        
+        /* Robot animation */
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-6px); }
+        }
+        .robot-float {
+            animation: float 4s ease-in-out infinite;
+        }
+        
+        /* Glow effect */
+        .glow {
+            filter: drop-shadow(0 0 8px rgba(99, 102, 241, 0.4));
+        }
+
+        /* Typing indicator */
+        @keyframes typing {
+            0%, 60%, 100% { transform: translateY(0); opacity: 0.4; }
+            30% { transform: translateY(-3px); opacity: 1; }
+        }
+        .typing-dot:nth-child(1) { animation: typing 1.2s infinite 0s; }
+        .typing-dot:nth-child(2) { animation: typing 1.2s infinite 0.15s; }
+        .typing-dot:nth-child(3) { animation: typing 1.2s infinite 0.3s; }
+
+        /* Gradient border */
+        .gradient-border {
+            background: linear-gradient(135deg, #6366f1 0%, #3b82f6 50%, #0ea5e9 100%);
+            padding: 1px;
+        }
+
+        /* Glass effect */
+        .glass {
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        /* Theme toggle switch */
+        .theme-toggle {
+            position: relative;
+            width: 52px;
+            height: 28px;
+            background: #334155;
+            border-radius: 14px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .light .theme-toggle {
+            background: #e2e8f0;
+        }
+        .theme-toggle-circle {
+            position: absolute;
+            top: 3px;
+            left: 3px;
+            width: 22px;
+            height: 22px;
+            background: white;
+            border-radius: 50%;
+            transition: transform 0.3s ease, background 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .light .theme-toggle-circle {
+            transform: translateX(24px);
+            background: #fbbf24;
+        }
+        .theme-toggle-circle i {
+            font-size: 12px;
+            color: #6366f1;
+        }
+        .light .theme-toggle-circle i {
+            color: #fff;
+        }
+
+        /* Light mode scrollbar */
+        .light .chat-scroll::-webkit-scrollbar-thumb {
+            background: #94a3b8;
+        }
+        .light .chat-scroll::-webkit-scrollbar-thumb:hover {
+            background: #64748b;
+        }
+    </style>
+</head>
+<body class="dark bg-slate-950 dark:bg-slate-950 bg-slate-100 h-screen flex items-center justify-center font-sans antialiased transition-colors duration-300">
+    
+    <!-- Background Pattern -->
+    <div id="bg-pattern" class="fixed inset-0 pointer-events-none overflow-hidden transition-opacity duration-300">
+        <div class="absolute top-0 left-1/4 w-[500px] h-[500px] bg-indigo-600/10 rounded-full blur-[120px]"></div>
+        <div class="absolute bottom-0 right-1/4 w-[400px] h-[400px] bg-blue-600/10 rounded-full blur-[100px]"></div>
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-cyan-600/5 rounded-full blur-[150px]"></div>
+    </div>
+    <!-- Light mode background -->
+    <div id="bg-pattern-light" class="fixed inset-0 pointer-events-none overflow-hidden hidden transition-opacity duration-300">
+        <div class="absolute top-0 left-1/4 w-[500px] h-[500px] bg-indigo-400/20 rounded-full blur-[120px]"></div>
+        <div class="absolute bottom-0 right-1/4 w-[400px] h-[400px] bg-blue-400/20 rounded-full blur-[100px]"></div>
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-cyan-400/10 rounded-full blur-[150px]"></div>
+    </div>
+
+    <!-- Main Container -->
+    <div id="main-container" class="w-full h-full md:w-[92%] md:h-[94%] lg:w-[80%] lg:max-w-5xl bg-slate-900/80 glass md:rounded-2xl shadow-2xl shadow-black/50 flex flex-col overflow-hidden border border-slate-700/50 relative z-10 transition-all duration-300">
+
+        <!-- Header -->
+        <header id="header" class="bg-slate-900/90 border-b border-slate-700/50 px-6 py-4 flex items-center justify-between transition-all duration-300">
+            <div class="flex items-center gap-4">
+                <!-- SVG Robot Icon -->
+                <div class="w-12 h-12 robot-float">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="w-full h-full glow">
+                        <!-- Robot Head -->
+                        <rect x="25" y="30" width="50" height="45" rx="8" fill="#6366f1" stroke="#818cf8" stroke-width="2"/>
+                        <!-- Antenna -->
+                        <line x1="50" y1="20" x2="50" y2="30" stroke="#6366f1" stroke-width="3" stroke-linecap="round"/>
+                        <circle cx="50" cy="18" r="4" fill="#a5b4fc"/>
+                        <!-- Eyes -->
+                        <circle cx="38" cy="45" r="5" fill="white"/>
+                        <circle cx="62" cy="45" r="5" fill="white"/>
+                        <circle cx="38" cy="45" r="2" fill="#312e81"/>
+                        <circle cx="62" cy="45" r="2" fill="#312e81"/>
+                        <!-- Mouth -->
+                        <path d="M 35 60 Q 50 65 65 60" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+                        <!-- Body -->
+                        <rect x="30" y="75" width="40" height="20" rx="4" fill="#6366f1" stroke="#818cf8" stroke-width="2"/>
+                        <!-- Arms -->
+                        <rect x="15" y="78" width="12" height="6" rx="3" fill="#818cf8"/>
+                        <rect x="73" y="78" width="12" height="6" rx="3" fill="#818cf8"/>
+                    </svg>
+                </div>
+                <div>
+                    <h1 id="title" class="text-xl font-semibold text-white tracking-tight transition-colors duration-300">Copiloto Legal</h1>
+                    <p id="subtitle" class="text-xs text-slate-400 font-medium transition-colors duration-300">Asistente de Codigo Nacional de Transito</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-3">
+                <div id="status-badge" class="hidden sm:flex items-center gap-2 bg-slate-800/80 border border-slate-700/50 px-3 py-1.5 rounded-full transition-all duration-300">
+                    <div class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
+                    <span id="status-text" class="text-xs font-medium text-slate-300 transition-colors duration-300">En linea</span>
+                </div>
+                <!-- Theme Toggle -->
+                <button id="theme-toggle" class="theme-toggle" title="Cambiar tema" aria-label="Cambiar entre modo claro y oscuro">
+                    <div class="theme-toggle-circle">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                </button>
+            </div>
+        </header>
+
+        <!-- Chat Container -->
+        <div id="chat-container" class="flex-1 overflow-y-auto px-4 md:px-8 py-6 space-y-5 chat-scroll transition-colors duration-300">
+            <!-- Welcome Message with Robot Illustration -->
+            <div class="flex flex-col items-center justify-center py-10 space-y-6 max-w-lg mx-auto">
+                <!-- Large Robot Illustration -->
+                <div class="w-28 h-28 robot-float">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="w-full h-full glow">
+                        <!-- Robot Head -->
+                        <rect x="20" y="25" width="60" height="50" rx="10" fill="#6366f1" stroke="#818cf8" stroke-width="2"/>
+                        <!-- Antenna -->
+                        <line x1="50" y1="15" x2="50" y2="25" stroke="#6366f1" stroke-width="4" stroke-linecap="round"/>
+                        <circle cx="50" cy="12" r="5" fill="#a5b4fc"/>
+                        <!-- Eyes -->
+                        <circle cx="35" cy="45" r="7" fill="white"/>
+                        <circle cx="65" cy="45" r="7" fill="white"/>
+                        <circle cx="35" cy="45" r="3" fill="#312e81"/>
+                        <circle cx="65" cy="45" r="3" fill="#312e81"/>
+                        <!-- Happy Mouth -->
+                        <path d="M 30 60 Q 50 70 70 60" stroke="white" stroke-width="3" fill="none" stroke-linecap="round"/>
+                        <!-- Body -->
+                        <rect x="25" y="75" width="50" height="20" rx="5" fill="#6366f1" stroke="#818cf8" stroke-width="2"/>
+                        <!-- Display panel -->
+                        <rect x="35" y="82" width="30" height="6" rx="2" fill="#818cf8" opacity="0.8"/>
+                        <!-- Arms -->
+                        <rect x="10" y="78" width="12" height="8" rx="4" fill="#818cf8"/>
+                        <rect x="78" y="78" width="12" height="8" rx="4" fill="#818cf8"/>
+                    </svg>
+                </div>
+                
+                <div class="text-center space-y-3">
+                    <h2 id="welcome-title" class="text-2xl font-semibold text-white transition-colors duration-300">Bienvenido a Copiloto Legal</h2>
+                    <p id="welcome-text" class="text-sm text-slate-400 leading-relaxed transition-colors duration-300">
+                        Soy tu asistente especializado en el Codigo Nacional de Transito. 
+                        Puedo ayudarte a entender tus derechos, resolver dudas sobre normativas 
+                        y orientarte en situaciones de transito.
+                    </p>
+                </div>
+
+                <!-- Quick Action Buttons -->
+                <div id="quick-buttons" class="flex flex-wrap justify-center gap-2 pt-2">
+                    <button onclick="quickQuestion('Cuales son mis derechos en un reten?')" class="quick-btn text-xs font-medium text-indigo-300 bg-indigo-500/10 hover:bg-indigo-500/20 border border-indigo-500/30 px-4 py-2 rounded-full transition-all">
+                        Derechos en retenes
+                    </button>
+                    <button onclick="quickQuestion('Que documentos debo portar al conducir?')" class="quick-btn text-xs font-medium text-indigo-300 bg-indigo-500/10 hover:bg-indigo-500/20 border border-indigo-500/30 px-4 py-2 rounded-full transition-all">
+                        Documentos requeridos
+                    </button>
+                    <button onclick="quickQuestion('Cuales son las principales infracciones de transito?')" class="quick-btn text-xs font-medium text-indigo-300 bg-indigo-500/10 hover:bg-indigo-500/20 border border-indigo-500/30 px-4 py-2 rounded-full transition-all">
+                        Infracciones comunes
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Input Area -->
+        <div id="input-area" class="bg-slate-900/90 border-t border-slate-700/50 px-4 md:px-6 py-4 transition-all duration-300">
+            <form id="chat-form" class="flex gap-3 max-w-3xl mx-auto">
+                <div class="flex-1 relative">
+                    <input 
+                        type="text" 
+                        id="user-input" 
+                        class="w-full bg-slate-800/80 border border-slate-600/50 text-white text-sm rounded-xl focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500/50 block pl-4 pr-12 py-3.5 outline-none transition-all placeholder:text-slate-500 duration-300" 
+                        placeholder="Escribe tu consulta legal..." 
+                        required
+                        autocomplete="off"
+                    >
+                    <div class="absolute right-4 top-1/2 -translate-y-1/2 text-slate-500">
+                        <i class="fas fa-comment-dots text-sm"></i>
+                    </div>
+                </div>
+                <button 
+                    type="submit" 
+                    class="bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-500 hover:to-indigo-400 text-white font-medium px-6 py-3.5 rounded-xl transition-all shadow-lg shadow-indigo-500/25 hover:shadow-indigo-500/40 flex items-center justify-center gap-2 group"
+                >
+                    <span class="hidden sm:inline text-sm">Enviar</span>
+                    <i class="fas fa-paper-plane text-sm group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
+                </button>
+            </form>
+            <p id="disclaimer" class="text-center text-[11px] text-slate-500 mt-3 transition-colors duration-300">
+                Este asistente proporciona orientacion legal general basada en el Codigo Nacional de Transito.
+            </p>
+        </div>
+
+    </div>
+
+    <script>
+        const chatContainer = document.getElementById('chat-container');
+        const chatForm = document.getElementById('chat-form');
+        const userInput = document.getElementById('user-input');
+
+        function quickQuestion(question) {
+            userInput.value = question;
+            chatForm.dispatchEvent(new Event('submit'));
+        }
+
+        function hideWelcome() {
+            const welcome = document.querySelector('#chat-container > div:first-child');
+            if (welcome && welcome.classList.contains('py-10')) {
+                welcome.style.display = 'none';
+            }
+        }
+
+        function appendMessage(text, isUser, sources = []) {
+            hideWelcome();
+            
+            const wrapperDiv = document.createElement('div');
+            wrapperDiv.className = `flex items-start gap-3 ${isUser ? 'flex-row-reverse' : ''} max-w-2xl ${isUser ? 'ml-auto' : ''} message-fade`;
+
+            // Avatar
+            const avatarDiv = document.createElement('div');
+            if (isUser) {
+                avatarDiv.className = 'w-9 h-9 bg-gradient-to-br from-slate-600 to-slate-700 rounded-lg flex items-center justify-center flex-shrink-0 shadow-sm';
+                avatarDiv.innerHTML = '<i class="fas fa-user text-white text-xs"></i>';
+            } else {
+                avatarDiv.className = 'w-9 h-9 flex items-center justify-center flex-shrink-0';
+                avatarDiv.innerHTML = `
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+                        <rect x="25" y="30" width="50" height="45" rx="8" fill="#6366f1" stroke="#818cf8" stroke-width="2"/>
+                        <line x1="50" y1="20" x2="50" y2="30" stroke="#6366f1" stroke-width="3" stroke-linecap="round"/>
+                        <circle cx="50" cy="18" r="4" fill="#a5b4fc"/>
+                        <circle cx="38" cy="45" r="5" fill="white"/>
+                        <circle cx="62" cy="45" r="5" fill="white"/>
+                        <circle cx="38" cy="45" r="2" fill="#312e81"/>
+                        <circle cx="62" cy="45" r="2" fill="#312e81"/>
+                        <path d="M 35 60 Q 50 65 65 60" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+                        <rect x="30" y="75" width="40" height="20" rx="4" fill="#6366f1" stroke="#818cf8" stroke-width="2"/>
+                        <rect x="15" y="78" width="12" height="6" rx="3" fill="#818cf8"/>
+                        <rect x="73" y="78" width="12" height="6" rx="3" fill="#818cf8"/>
+                    </svg>
+                `;
+            }
+
+            // Bubble
+            const bubbleDiv = document.createElement('div');
+            bubbleDiv.className = isUser 
+                ? 'bg-indigo-600 text-white px-4 py-3 rounded-2xl rounded-tr-sm shadow-lg shadow-indigo-500/20' 
+                : 'bg-slate-800/90 border border-slate-700/50 text-slate-200 px-4 py-3 rounded-2xl rounded-tl-sm shadow-lg';
+
+            // Format text
+            let formattedText = text
+                .replace(/\*\*(.*?)\*\*/g, '<strong class="font-semibold text-white">$1</strong>')
+                .replace(/\n/g, '<br>');
+            
+            let content = `<div class="text-sm leading-relaxed">${formattedText}</div>`;
+
+            // Sources for Agent
+            if (!isUser && sources && sources.length > 0) {
+                content += `
+                    <div class="mt-4 pt-3 border-t border-slate-700/50">
+                        <p class="text-[11px] font-semibold text-slate-400 mb-2 uppercase tracking-wide flex items-center gap-1.5">
+                            <i class="fas fa-bookmark text-indigo-400"></i>
+                            Referencias del Codigo de Transito
+                        </p>
+                        <div class="flex flex-wrap gap-1.5">
+                            ${sources.map(s => `
+                                <span class="text-[11px] bg-slate-700/50 text-slate-300 px-2.5 py-1 rounded-md border border-slate-600/50 font-medium">
+                                    Art. ${s.article_id || '?'} - ${s.title || 'Sin titulo'}
+                                </span>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+            }
+
+            bubbleDiv.innerHTML = content;
+
+            wrapperDiv.appendChild(avatarDiv);
+            wrapperDiv.appendChild(bubbleDiv);
+            chatContainer.appendChild(wrapperDiv);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+
+        function showLoading() {
+            const loadingDiv = document.createElement('div');
+            loadingDiv.id = 'loading-indicator';
+            loadingDiv.className = 'flex items-start gap-3 max-w-2xl message-fade';
+            loadingDiv.innerHTML = `
+                <div class="w-9 h-9 flex items-center justify-center flex-shrink-0">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+                        <rect x="25" y="30" width="50" height="45" rx="8" fill="#6366f1" stroke="#818cf8" stroke-width="2"/>
+                        <line x1="50" y1="20" x2="50" y2="30" stroke="#6366f1" stroke-width="3" stroke-linecap="round"/>
+                        <circle cx="50" cy="18" r="4" fill="#a5b4fc"/>
+                        <circle cx="38" cy="45" r="5" fill="white"/>
+                        <circle cx="62" cy="45" r="5" fill="white"/>
+                        <circle cx="38" cy="45" r="2" fill="#312e81"/>
+                        <circle cx="62" cy="45" r="2" fill="#312e81"/>
+                        <path d="M 35 60 Q 50 65 65 60" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+                        <rect x="30" y="75" width="40" height="20" rx="4" fill="#6366f1" stroke="#818cf8" stroke-width="2"/>
+                        <rect x="15" y="78" width="12" height="6" rx="3" fill="#818cf8"/>
+                        <rect x="73" y="78" width="12" height="6" rx="3" fill="#818cf8"/>
+                    </svg>
+                </div>
+                <div class="bg-slate-800/90 border border-slate-700/50 text-slate-200 px-4 py-3 rounded-2xl rounded-tl-sm shadow-lg flex items-center gap-1.5">
+                    <div class="w-2 h-2 bg-indigo-400 rounded-full typing-dot"></div>
+                    <div class="w-2 h-2 bg-indigo-400 rounded-full typing-dot"></div>
+                    <div class="w-2 h-2 bg-indigo-400 rounded-full typing-dot"></div>
+                </div>
+            `;
+            chatContainer.appendChild(loadingDiv);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+
+        function removeLoading() {
+            const loadingDiv = document.getElementById('loading-indicator');
+            if (loadingDiv) loadingDiv.remove();
+        }
+
+        chatForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const message = userInput.value.trim();
+            if (!message) return;
+
+            appendMessage(message, true);
+            userInput.value = '';
+            userInput.focus();
+            showLoading();
+
+            try {
+                const response = await fetch('/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: message })
+                });
+
+                const data = await response.json();
+                removeLoading();
+
+                if (data.error) {
+                    appendMessage('No fue posible procesar tu solicitud en este momento. Por favor, intenta nuevamente.', false);
+                } else {
+                    appendMessage(data.response, false, data.sources);
+                }
+            } catch (error) {
+                removeLoading();
+                appendMessage('Error de conexion con el servidor. Verifica tu conexion e intenta nuevamente.', false);
+                console.error('Error:', error);
+            }
+        });
+
+        // Focus input on load
+        userInput.focus();
+
+        // Theme Toggle Functionality
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+        const toggleIcon = themeToggle.querySelector('i');
+        
+        // Check for saved theme preference or default to dark
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        if (savedTheme === 'light') {
+            enableLightMode();
+        }
+
+        themeToggle.addEventListener('click', () => {
+            if (body.classList.contains('dark')) {
+                enableLightMode();
+                localStorage.setItem('theme', 'light');
+            } else {
+                enableDarkMode();
+                localStorage.setItem('theme', 'dark');
+            }
+        });
+
+        function enableLightMode() {
+            body.classList.remove('dark');
+            body.classList.add('light');
+            body.style.background = '#f1f5f9';
+            toggleIcon.className = 'fas fa-sun';
+            
+            // Background patterns
+            document.getElementById('bg-pattern').classList.add('hidden');
+            document.getElementById('bg-pattern-light').classList.remove('hidden');
+            
+            // Main container
+            const mainContainer = document.getElementById('main-container');
+            mainContainer.classList.remove('bg-slate-900/80', 'border-slate-700/50', 'shadow-black/50');
+            mainContainer.classList.add('bg-white/90', 'border-slate-200', 'shadow-slate-300/50');
+            
+            // Header
+            const header = document.getElementById('header');
+            header.classList.remove('bg-slate-900/90', 'border-slate-700/50');
+            header.classList.add('bg-white/95', 'border-slate-200');
+            
+            // Titles
+            document.getElementById('title').classList.remove('text-white');
+            document.getElementById('title').classList.add('text-slate-800');
+            document.getElementById('subtitle').classList.remove('text-slate-400');
+            document.getElementById('subtitle').classList.add('text-slate-500');
+            
+            // Status badge
+            const statusBadge = document.getElementById('status-badge');
+            statusBadge.classList.remove('bg-slate-800/80', 'border-slate-700/50');
+            statusBadge.classList.add('bg-slate-100', 'border-slate-200');
+            document.getElementById('status-text').classList.remove('text-slate-300');
+            document.getElementById('status-text').classList.add('text-slate-600');
+            
+            // Welcome section
+            const welcomeTitle = document.getElementById('welcome-title');
+            const welcomeText = document.getElementById('welcome-text');
+            if (welcomeTitle) {
+                welcomeTitle.classList.remove('text-white');
+                welcomeTitle.classList.add('text-slate-800');
+            }
+            if (welcomeText) {
+                welcomeText.classList.remove('text-slate-400');
+                welcomeText.classList.add('text-slate-600');
+            }
+            
+            // Quick buttons
+            document.querySelectorAll('.quick-btn').forEach(btn => {
+                btn.classList.remove('text-indigo-300', 'bg-indigo-500/10', 'border-indigo-500/30');
+                btn.classList.add('text-indigo-600', 'bg-indigo-50', 'border-indigo-200');
+            });
+            
+            // Input area
+            const inputArea = document.getElementById('input-area');
+            inputArea.classList.remove('bg-slate-900/90', 'border-slate-700/50');
+            inputArea.classList.add('bg-white/95', 'border-slate-200');
+            
+            // Input field
+            const userInputEl = document.getElementById('user-input');
+            userInputEl.classList.remove('bg-slate-800/80', 'border-slate-600/50', 'text-white', 'placeholder:text-slate-500');
+            userInputEl.classList.add('bg-slate-50', 'border-slate-300', 'text-slate-800', 'placeholder:text-slate-400');
+            
+            // Disclaimer
+            document.getElementById('disclaimer').classList.remove('text-slate-500');
+            document.getElementById('disclaimer').classList.add('text-slate-400');
+        }
+
+        function enableDarkMode() {
+            body.classList.remove('light');
+            body.classList.add('dark');
+            body.style.background = '#020617';
+            toggleIcon.className = 'fas fa-moon';
+            
+            // Background patterns
+            document.getElementById('bg-pattern').classList.remove('hidden');
+            document.getElementById('bg-pattern-light').classList.add('hidden');
+            
+            // Main container
+            const mainContainer = document.getElementById('main-container');
+            mainContainer.classList.remove('bg-white/90', 'border-slate-200', 'shadow-slate-300/50');
+            mainContainer.classList.add('bg-slate-900/80', 'border-slate-700/50', 'shadow-black/50');
+            
+            // Header
+            const header = document.getElementById('header');
+            header.classList.remove('bg-white/95', 'border-slate-200');
+            header.classList.add('bg-slate-900/90', 'border-slate-700/50');
+            
+            // Titles
+            document.getElementById('title').classList.remove('text-slate-800');
+            document.getElementById('title').classList.add('text-white');
+            document.getElementById('subtitle').classList.remove('text-slate-500');
+            document.getElementById('subtitle').classList.add('text-slate-400');
+            
+            // Status badge
+            const statusBadge = document.getElementById('status-badge');
+            statusBadge.classList.remove('bg-slate-100', 'border-slate-200');
+            statusBadge.classList.add('bg-slate-800/80', 'border-slate-700/50');
+            document.getElementById('status-text').classList.remove('text-slate-600');
+            document.getElementById('status-text').classList.add('text-slate-300');
+            
+            // Welcome section
+            const welcomeTitle = document.getElementById('welcome-title');
+            const welcomeText = document.getElementById('welcome-text');
+            if (welcomeTitle) {
+                welcomeTitle.classList.remove('text-slate-800');
+                welcomeTitle.classList.add('text-white');
+            }
+            if (welcomeText) {
+                welcomeText.classList.remove('text-slate-600');
+                welcomeText.classList.add('text-slate-400');
+            }
+            
+            // Quick buttons
+            document.querySelectorAll('.quick-btn').forEach(btn => {
+                btn.classList.remove('text-indigo-600', 'bg-indigo-50', 'border-indigo-200');
+                btn.classList.add('text-indigo-300', 'bg-indigo-500/10', 'border-indigo-500/30');
+            });
+            
+            // Input area
+            const inputArea = document.getElementById('input-area');
+            inputArea.classList.remove('bg-white/95', 'border-slate-200');
+            inputArea.classList.add('bg-slate-900/90', 'border-slate-700/50');
+            
+            // Input field
+            const userInputEl = document.getElementById('user-input');
+            userInputEl.classList.remove('bg-slate-50', 'border-slate-300', 'text-slate-800', 'placeholder:text-slate-400');
+            userInputEl.classList.add('bg-slate-800/80', 'border-slate-600/50', 'text-white', 'placeholder:text-slate-500');
+            
+            // Disclaimer
+            document.getElementById('disclaimer').classList.remove('text-slate-400');
+            document.getElementById('disclaimer').classList.add('text-slate-500');
+        }
+
+        // Update appendMessage to respect current theme
+        const originalAppendMessage = appendMessage;
+        appendMessage = function(text, isUser, sources = []) {
+            originalAppendMessage(text, isUser, sources);
+            
+            // Apply theme to new messages if in light mode
+            if (body.classList.contains('light')) {
+                const messages = chatContainer.querySelectorAll('.message-fade');
+                const lastMessage = messages[messages.length - 1];
+                if (lastMessage && !isUser) {
+                    const bubble = lastMessage.querySelector('div:last-child');
+                    if (bubble && !bubble.classList.contains('bg-indigo-600')) {
+                        bubble.classList.remove('bg-slate-800/90', 'border-slate-700/50', 'text-slate-200');
+                        bubble.classList.add('bg-white', 'border-slate-200', 'text-slate-700', 'shadow-md');
+                    }
+                }
+            }
+        };
+    </script>
+</body>
+</html>

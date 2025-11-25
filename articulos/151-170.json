@@ -1,0 +1,285 @@
+[
+  {
+    "numero_articulo": 151,
+    "titulo_articulo": "Registro Nacional de Accidentes de Tránsito",
+    "capitulo": "Accidentes de Tránsito (Capítulo III, Título XIII)",
+    "resumen": "Establece la creación del **Registro Nacional de Accidentes de Tránsito** a cargo del **RUNT** (Registro Único Nacional de Tránsito). Este registro debe contener toda la información de los accidentes (IPAT), incluyendo datos de los vehículos, conductores, víctimas y las causas probables. Su objetivo es generar **estadísticas** confiables para la formulación de políticas de **seguridad vial** y la prevención de siniestros.",
+    "palabras_clave": [
+      "Registro Nacional de Accidentes",
+      "RUNT",
+      "IPAT",
+      "estadísticas",
+      "seguridad vial",
+      "prevención"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 152,
+    "titulo_articulo": "Revisión Técnica y Mecánica de los Vehículos",
+    "capitulo": "Disposiciones Transitorias y Finales (Capítulo I, Título XIV)",
+    "resumen": "Establece la obligatoriedad de que los vehículos sean sometidos a la **Revisión Técnico-Mecánica y de Emisiones Contaminantes**. Inicialmente, fijó el plazo y la periodicidad para los vehículos nuevos y usados. El objetivo es garantizar que los vehículos circulen con las **condiciones mínimas de seguridad** y que cumplan con los límites de **emisión de gases y ruidos** establecidos. *La periodicidad fue modificada posteriormente, estableciendo plazos diferentes para vehículos de servicio particular y público*.",
+    "palabras_clave": [
+      "Revisión Técnico-Mecánica",
+      "emisiones contaminantes",
+      "seguridad vehicular",
+      "periodicidad",
+      "obligatorio",
+      "Centro de Diagnóstico Automotor (CDA)"
+    ],
+    "sanciones/multas": [
+      "Conducir sin haber realizado la Revisión Técnico-Mecánica: Multa e Inmovilización (Infracción C.35, tipo C)."
+    ]
+  },
+  {
+    "numero_articulo": 153,
+    "titulo_articulo": "Autorización para Centros de Diagnóstico",
+    "capitulo": "Disposiciones Transitorias y Finales (Capítulo I, Título XIV)",
+    "resumen": "Solo los **Centros de Diagnóstico Automotor (CDA)** que cumplan con los requisitos técnicos, operativos y de seguridad, y que estén debidamente **autorizados** por el Ministerio de Transporte y el Ministerio de Ambiente, podrán realizar la Revisión Técnico-Mecánica y de Emisiones Contaminantes. Se busca garantizar la idoneidad y la transparencia en este servicio.",
+    "palabras_clave": [
+      "Centros de Diagnóstico Automotor (CDA)",
+      "autorización",
+      "Ministerio de Transporte",
+      "requisitos técnicos",
+      "transparencia",
+      "Revisión Técnico-Mecánica"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 154,
+    "titulo_articulo": "Normas de Emisión",
+    "capitulo": "Disposiciones Transitorias y Finales (Capítulo I, Título XIV)",
+    "resumen": "El **Ministerio de Ambiente y Desarrollo Sostenible** tiene la competencia para fijar los **niveles permisibles de emisión de contaminantes** provenientes de fuentes móviles (vehículos). La revisión técnico-mecánica debe verificar que los vehículos cumplan con estos estándares. El incumplimiento de estas normas ambientales es causal de sanción e inmovilización.",
+    "palabras_clave": [
+      "Normas de emisión",
+      "emisiones contaminantes",
+      "Ministerio de Ambiente",
+      "límites permisibles",
+      "fuentes móviles",
+      "ruido"
+    ],
+    "sanciones/multas": [
+      "Emisión de gases o ruidos contaminantes por encima de lo permitido: Multa e Inmovilización (Infracción D.15/C.35, tipo D/C)."
+    ]
+  },
+  {
+    "numero_articulo": 155,
+    "titulo_articulo": "Excepciones",
+    "capitulo": "Disposiciones Transitorias y Finales (Capítulo I, Título XIV)",
+    "resumen": "Señala que los vehículos registrados como **clásicos y antiguos**, así como los de **competencia**, tienen un régimen especial en materia de revisión técnico-mecánica. Su revisión se realiza en períodos y condiciones diferentes, enfocados más en la preservación que en la circulación diaria, siempre y cuando su circulación esté restringida a eventos o fines específicos.",
+    "palabras_clave": [
+      "Vehículos clásicos",
+      "vehículos antiguos",
+      "vehículos de competencia",
+      "excepciones",
+      "régimen especial",
+      "Revisión Técnico-Mecánica"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 156,
+    "titulo_articulo": "Seguros",
+    "capitulo": "Disposiciones Transitorias y Finales (Capítulo II, Título XIV)",
+    "resumen": "Todo vehículo automotor que circule en el territorio nacional debe contar con el **Seguro Obligatorio de Accidentes de Tránsito (SOAT)** vigente. El SOAT cubre los daños corporales que se causen a las personas en accidentes de tránsito. La falta de SOAT es causal de inmovilización. Adicionalmente, los vehículos de **servicio público** deben tener un **seguro de responsabilidad civil contractual y extracontractual**.",
+    "palabras_clave": [
+      "SOAT",
+      "Seguro Obligatorio de Accidentes de Tránsito",
+      "daños corporales",
+      "vigencia",
+      "servicio público",
+      "seguro de responsabilidad civil"
+    ],
+    "sanciones/multas": [
+      "Conducir sin portar el SOAT vigente: Multa e Inmovilización (Infracción D.2, tipo D)."
+    ]
+  },
+  {
+    "numero_articulo": 157,
+    "titulo_articulo": "Vigencia",
+    "capitulo": "Disposiciones Transitorias y Finales (Capítulo II, Título XIV)",
+    "resumen": "Establece que el **SOAT** debe estar vigente durante todo el tiempo que el vehículo circule. La entidad aseguradora debe reportar al **RUNT** la expedición o renovación del seguro para su consulta en línea por parte de las autoridades de tránsito. El SOAT tiene una vigencia de **un (1) año**, salvo excepciones reglamentadas por la ley.",
+    "palabras_clave": [
+      "Vigencia SOAT",
+      "un año",
+      "RUNT",
+      "consulta en línea",
+      "autoridades de tránsito",
+      "obligatoriedad"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 158,
+    "titulo_articulo": "Cobro de Daños",
+    "capitulo": "Disposiciones Transitorias y Finales (Capítulo II, Título XIV)",
+    "resumen": "Cuando el accidente de tránsito sea provocado por un vehículo que circula sin el **SOAT** o sin el seguro de responsabilidad civil (si es de servicio público), el conductor responsable, el propietario y la empresa de transporte (si aplica) serán solidariamente responsables por los **daños materiales y personales** que se causen. Los afectados podrán ejercer las acciones de cobro civil y penal correspondientes.",
+    "palabras_clave": [
+      "Cobro de daños",
+      "vehículo sin SOAT",
+      "responsabilidad solidaria",
+      "daños materiales",
+      "daños personales",
+      "acciones legales"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 159,
+    "titulo_articulo": "Acuerdo de Compensación y Fianzas",
+    "capitulo": "Disposiciones Transitorias y Finales (Capítulo II, Título XIV)",
+    "resumen": "Este artículo fue **derogado** por el artículo 34 de la Ley 1753 de 2015. Originalmente, se refería a acuerdos para que el SOAT cubriera gastos de atención médica de personas lesionadas en accidente de tránsito, sin que tuviera que mediar demanda judicial, lo cual hoy se rige por el Sistema General de Seguridad Social en Salud y otras disposiciones del SOAT.",
+    "palabras_clave": [
+      "Derogado",
+      "SOAT",
+      "gastos médicos",
+      "acuerdo de compensación",
+      "Ley 1753 de 2015"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 160,
+    "titulo_articulo": "Destinación de Multas",
+    "capitulo": "Disposiciones Transitorias y Finales (Capítulo III, Título XIV)",
+    "resumen": "El producto de las **multas de tránsito** (sanciones pecuniarias) impuestas dentro de la jurisdicción de cada organismo de tránsito debe destinarse a la **ejecución de planes y programas de seguridad vial**, la educación vial, la adquisición y mantenimiento de equipos, la demarcación y señalización vial, y el apoyo a las entidades de salud que atienden a víctimas de accidentes. Se prohíbe destinar estos recursos a gastos diferentes a los mencionados.",
+    "palabras_clave": [
+      "Destinación de multas",
+      "seguridad vial",
+      "educación vial",
+      "señalización",
+      "víctimas de accidentes",
+      "prohibición de desvío"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 161,
+    "titulo_articulo": "Transitorio",
+    "capitulo": "Disposiciones Transitorias y Finales (Capítulo III, Título XIV)",
+    "resumen": "Artículo que estableció un **plazo transitorio** (inicialmente dos años) para que los propietarios de vehículos de **servicio público colectivo** que no cumplían los requisitos de la Ley 769 de 2002 para su reposición o chatarrización, pudieran ajustarse a la normativa. Este artículo tuvo una vigencia temporal y buscó facilitar la transición del parque automotor de servicio público a los nuevos estándares técnicos y de seguridad.",
+    "palabras_clave": [
+      "Artículo transitorio",
+      "servicio público colectivo",
+      "chatarrización",
+      "reposición vehicular",
+      "plazo",
+      "transición"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 162,
+    "titulo_articulo": "Derogatorias",
+    "capitulo": "Disposiciones Transitorias y Finales (Capítulo IV, Título XIV)",
+    "resumen": "Establece que el Código Nacional de Tránsito Terrestre (Ley 769 de 2002) **deroga** todas las disposiciones que le sean contrarias y, en particular, el anterior Código Nacional de Tránsito (Decreto 1344 de 1970) y sus normas modificatorias y complementarias, logrando la **unificación** y actualización de la legislación de tránsito en Colombia.",
+    "palabras_clave": [
+      "Derogatorias",
+      "Decreto 1344 de 1970",
+      "normas contrarias",
+      "unificación",
+      "legislación de tránsito"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 163,
+    "titulo_articulo": "Vigencia",
+    "capitulo": "Disposiciones Transitorias y Finales (Capítulo IV, Título XIV)",
+    "resumen": "Establece que la **Ley 769 de 2002** rige a partir de los **seis (6) meses** siguientes a su promulgación (Agosto 6 de 2002), es decir, a partir de febrero de 2003. Este plazo permitió a las autoridades y a los ciudadanos prepararse para la entrada en vigor del nuevo código, incluyendo la reglamentación de aspectos técnicos y la divulgación de las nuevas normas.",
+    "palabras_clave": [
+      "Vigencia de la Ley",
+      "Ley 769 de 2002",
+      "seis meses",
+      "promulgación",
+      "entrada en vigor"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 164,
+    "titulo_articulo": "De la Licencia de Tránsito",
+    "capitulo": "Disposiciones Transitorias y Finales (Capítulo V, Título XIV)",
+    "resumen": "Artículos subsiguientes al 163 (164 al 170) **no existen** en el Código Nacional de Tránsito Terrestre (Ley 769 de 2002). La Ley 769 de 2002 **termina en el artículo 163**. Los artículos 164 al 170 corresponden a la numeración de otros códigos o normativas, o a una numeración no oficial o desactualizada de la Ley 769. El artículo 164 de la Ley 769 de 2002 no existe.",
+    "palabras_clave": [
+      "Artículo inexistente",
+      "Ley 769 de 2002",
+      "numeración incorrecta",
+      "fin de la Ley"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 165,
+    "titulo_articulo": "Artículo Inexistente",
+    "capitulo": "Disposiciones Transitorias y Finales (Capítulo V, Título XIV)",
+    "resumen": "La Ley 769 de 2002, Código Nacional de Tránsito Terrestre, **termina en el Artículo 163**. No existen disposiciones enumeradas como 165, 166, 167, 168, 169 y 170 dentro del texto oficial de la ley.",
+    "palabras_clave": [
+      "Artículo inexistente",
+      "fin de la Ley 769 de 2002",
+      "numeración incorrecta"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 166,
+    "titulo_articulo": "Artículo Inexistente",
+    "capitulo": "Disposiciones Transitorias y Finales (Capítulo V, Título XIV)",
+    "resumen": "La Ley 769 de 2002, Código Nacional de Tránsito Terrestre, **termina en el Artículo 163**. No existen disposiciones enumeradas como 165, 166, 167, 168, 169 y 170 dentro del texto oficial de la ley.",
+    "palabras_clave": [
+      "Artículo inexistente",
+      "fin de la Ley 769 de 2002",
+      "numeración incorrecta"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 167,
+    "titulo_articulo": "Artículo Inexistente",
+    "capitulo": "Disposiciones Transitorias y Finales (Capítulo V, Título XIV)",
+    "resumen": "La Ley 769 de 2002, Código Nacional de Tránsito Terrestre, **termina en el Artículo 163**. No existen disposiciones enumeradas como 165, 166, 167, 168, 169 y 170 dentro del texto oficial de la ley.",
+    "palabras_clave": [
+      "Artículo inexistente",
+      "fin de la Ley 769 de 2002",
+      "numeración incorrecta"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 168,
+    "titulo_articulo": "Artículo Inexistente",
+    "capitulo": "Disposiciones Transitorias y Finales (Capítulo V, Título XIV)",
+    "resumen": "La Ley 769 de 2002, Código Nacional de Tránsito Terrestre, **termina en el Artículo 163**. No existen disposiciones enumeradas como 165, 166, 167, 168, 169 y 170 dentro del texto oficial de la ley.",
+    "palabras_clave": [
+      "Artículo inexistente",
+      "fin de la Ley 769 de 2002",
+      "numeración incorrecta"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 169,
+    "titulo_articulo": "Artículo Inexistente",
+    "capitulo": "Disposiciones Transitorias y Finales (Capítulo V, Título XIV)",
+    "resumen": "La Ley 769 de 2002, Código Nacional de Tránsito Terrestre, **termina en el Artículo 163**. No existen disposiciones enumeradas como 165, 166, 167, 168, 169 y 170 dentro del texto oficial de la ley.",
+    "palabras_clave": [
+      "Artículo inexistente",
+      "fin de la Ley 769 de 2002",
+      "numeración incorrecta"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 170,
+    "titulo_articulo": "Artículo Inexistente",
+    "capitulo": "Disposiciones Transitorias y Finales (Capítulo V, Título XIV)",
+    "resumen": "La Ley 769 de 2002, Código Nacional de Tránsito Terrestre, **termina en el Artículo 163**. No existen disposiciones enumeradas como 165, 166, 167, 168, 169 y 170 dentro del texto oficial de la ley.",
+    "palabras_clave": [
+      "Artículo inexistente",
+      "fin de la Ley 769 de 2002",
+      "numeración incorrecta"
+    ],
+    "sanciones/multas": []
+  }
+]

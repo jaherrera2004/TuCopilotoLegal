@@ -1,0 +1,6 @@
+flask
+chromadb
+python-dotenv
+google-generativeai
+numpy
+google-genai

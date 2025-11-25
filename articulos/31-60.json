@@ -1,0 +1,529 @@
+[
+  {
+    "numero_articulo": 31,
+    "titulo_articulo": "Vehículos de Servicio Público",
+    "capitulo": "Vehículos (Capítulo II, Título IV)",
+    "resumen": "Los vehículos destinados al **servicio público de pasajeros y de carga** deben cumplir, adicionalmente a los requisitos generales, con las **condiciones de seguridad** y **mantenimiento** que exija el **Ministerio de Transporte** para la **habilitación** y **prestación** de dicho servicio. Estos vehículos están sujetos a controles más estrictos en cuanto a **antigüedad**, **revisión técnico-mecánica** y uso de **dispositivos de control** (ej. limitadores de velocidad), buscando garantizar la **seguridad** y **calidad** del servicio a los usuarios y la **protección ambiental**. Deben tener una **póliza** de seguros que cubra riesgos adicionales al SOAT.",
+    "palabras_clave": [
+      "Servicio público",
+      "vehículo de pasajeros",
+      "vehículo de carga",
+      "habilitación",
+      "seguridad",
+      "calidad del servicio",
+      "antigüedad",
+      "Ministerio de Transporte"
+    ],
+    "sanciones/multas": [
+      "Prestar servicio sin cumplir los requisitos: Multa e Inmovilización (Infracciones de tipo D o E, según gravedad)."
+    ]
+  },
+  {
+    "numero_articulo": 32,
+    "titulo_articulo": "Llantas",
+    "capitulo": "Vehículos (Capítulo III, Título IV)",
+    "resumen": "Todos los vehículos que circulen por las vías del país deben tener **llantas** en perfectas **condiciones de seguridad** que garanticen una adecuada adherencia y estabilidad. Está estrictamente **prohibido** circular con llantas **lisas**, **defectuosas**, con deformaciones o con cualquier anomalía que represente un riesgo para la **seguridad vial**. El **Ministerio de Transporte** reglamentará las características técnicas específicas, incluyendo la **profundidad mínima** del labrado. Su incumplimiento es causal de sanción e **inmovilización** del vehículo hasta que se subsane el defecto.",
+    "palabras_clave": [
+      "Llantas",
+      "seguridad vial",
+      "profundidad mínima",
+      "llantas lisas",
+      "adherencia",
+      "revisión técnico-mecánica",
+      "inmovilización"
+    ],
+    "sanciones/multas": [
+      "Circular con llantas en mal estado físico (lisas): Multa e Inmovilización (Infracción C.35, tipo C)."
+    ]
+  },
+  {
+    "numero_articulo": 33,
+    "titulo_articulo": "Luces",
+    "capitulo": "Vehículos (Capítulo IV, Título IV)",
+    "resumen": "Todo vehículo automotor debe contar con un **sistema de luces** en perfecto estado de funcionamiento, incluyendo **luces delanteras** (altas y bajas), **luces de freno**, **direccionales** (intermitentes), y **luces de parqueo**. Las **motocicletas** deben circular permanentemente con las **luces encendidas** (bajas). Se prohíbe el uso de luces exploradoras o antiniebla con intensidad que **deslumbre** a los conductores en sentido contrario. Las características y reglamentación de las luces deben cumplir con las normas técnicas establecidas por el Ministerio de Transporte para garantizar la visibilidad y la seguridad.",
+    "palabras_clave": [
+      "Luces",
+      "sistema de iluminación",
+      "luces bajas",
+      "luces de freno",
+      "direccionales",
+      "motocicletas",
+      "deslumbramiento",
+      "seguridad vehicular"
+    ],
+    "sanciones/multas": [
+      "Conducir con el sistema de luces defectuoso o sin ellas: Multa (Infracción C.37 o C.38, tipo C)."
+    ]
+  },
+  {
+    "numero_articulo": 34,
+    "titulo_articulo": "Vidrios, Limpiabrisas y Espejos",
+    "capitulo": "Vehículos (Capítulo V, Título IV)",
+    "resumen": "Todo vehículo debe contar con **vidrios de seguridad** que permitan una adecuada visibilidad, en cumplimiento de normas técnicas. Los **limpiabrisas** deben estar en perfecto estado de funcionamiento. Se exige el uso de **espejos retrovisores**, tanto externos como internos, en condiciones que garanticen la total **visibilidad** al conductor hacia la parte trasera y lateral del vehículo. Se prohíben elementos que obstaculicen la visibilidad del conductor.",
+    "palabras_clave": [
+      "Vidrios de seguridad",
+      "limpiabrisas",
+      "espejos retrovisores",
+      "visibilidad",
+      "seguridad",
+      "obstaculización"
+    ],
+    "sanciones/multas": [
+      "Conducir sin los espejos retrovisores requeridos o con limpiabrisas defectuosos: Multa (Infracción C.12, tipo C)."
+    ]
+  },
+  {
+    "numero_articulo": 35,
+    "titulo_articulo": "Carrocería",
+    "capitulo": "Vehículos (Capítulo VI, Título IV)",
+    "resumen": "La **carrocería** de todo vehículo debe estar en óptimas condiciones de **seguridad**, **integridad estructural** y **mantenimiento**, garantizando la protección de sus ocupantes y de los demás usuarios de la vía. Se prohíben las carrocerías que no cumplan con las **normas técnicas** expedidas por el Ministerio de Transporte. Especialmente, los vehículos de **transporte público de pasajeros** deben cumplir con condiciones de higiene y comodidad, y no podrán llevar sobrecupo o elementos que comprometan la estabilidad o seguridad.",
+    "palabras_clave": [
+      "Carrocería",
+      "seguridad vehicular",
+      "integridad estructural",
+      "normas técnicas",
+      "transporte público",
+      "sobrecupo"
+    ],
+    "sanciones/multas": [
+      "Transporte con sobrecupo de pasajeros: Multa (Infracción D.3, tipo D)."
+    ]
+  },
+  {
+    "numero_articulo": 36,
+    "titulo_articulo": "Seguridad en Vehículos de Carga",
+    "capitulo": "Vehículos (Capítulo VII, Título IV)",
+    "resumen": "Los vehículos destinados al **transporte de carga** deben garantizar que esta se encuentre **debidamente empacada**, **rotulada** y **sujeta** para evitar cualquier riesgo de caída o dispersión en la vía, lo que podría causar accidentes. La carga no debe exceder las **dimensiones máximas** del vehículo ni su **capacidad de peso** autorizada. Los vehículos que transporten **sustancias peligrosas** deben cumplir con la reglamentación especial del Ministerio de Transporte y llevar la **señalización** e identificación adecuada.",
+    "palabras_clave": [
+      "Transporte de carga",
+      "seguridad",
+      "rotulación",
+      "sujeción",
+      "sustancias peligrosas",
+      "dimensiones",
+      "capacidad de peso"
+    ],
+    "sanciones/multas": [
+      "Transportar carga sin las medidas de sujeción o con sobrepeso: Multa e Inmovilización (Infracción D.7, tipo D)."
+    ]
+  },
+  {
+    "numero_articulo": 37,
+    "titulo_articulo": "Prohibición de Carros de Combate",
+    "capitulo": "Vehículos (Capítulo VII, Título IV)",
+    "resumen": "Se establece la **prohibición** de que los vehículos de las **Fuerzas Militares** (ej. tanques, carros de combate) y de la **Policía Nacional** utilicen las vías públicas por donde circula el tránsito civil de forma **permanente** y sin restricciones. Su circulación debe ser **coordinada** y limitada a maniobras o traslado indispensable, y deben tomarse las medidas necesarias para **proteger la infraestructura vial** y la **seguridad** de los demás usuarios. Deben contar con la autorización del Ministerio de Transporte y, en todo caso, tener acompañamiento.",
+    "palabras_clave": [
+      "Carros de combate",
+      "Fuerzas Militares",
+      "Policía Nacional",
+      "vías públicas",
+      "prohibición",
+      "seguridad vial",
+      "coordinación"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 38,
+    "titulo_articulo": "Cintas Reflectivas",
+    "capitulo": "Vehículos (Capítulo VII, Título IV)",
+    "resumen": "Todo vehículo de transporte **público**, **colectivo** y de **carga** debe tener instaladas **cintas o bandas reflectivas** en sus partes laterales y traseras, conforme a la **reglamentación técnica** del Ministerio de Transporte. Estas cintas son obligatorias para mejorar la **visibilidad** del vehículo, especialmente en condiciones de **baja luminosidad** (noche, niebla, lluvia) o cuando el vehículo se encuentra detenido en la vía, contribuyendo a la prevención de **accidentes por alcance**.",
+    "palabras_clave": [
+      "Cintas reflectivas",
+      "vehículo de carga",
+      "transporte público",
+      "visibilidad",
+      "seguridad nocturna",
+      "baja luminosidad"
+    ],
+    "sanciones/multas": [
+      "No portar o usar las cintas reflectivas exigidas: Multa (Infracción C.38, tipo C)."
+    ]
+  },
+  {
+    "numero_articulo": 39,
+    "titulo_articulo": "Vehículos de Emergencia",
+    "capitulo": "Vehículos (Capítulo VII, Título IV)",
+    "resumen": "Define a los **vehículos de emergencia** (ambulancias, bomberos, Policía, organismos de socorro) y les otorga la **prelación de paso** en la vía cuando están en **servicio de urgencia**. Deben estar equipados con dispositivos de **alarma audible** (sirenas) y **visibles** (luces rotatorias o intermitentes). El uso de estos dispositivos debe ser **exclusivo** para la atención de emergencias. Los conductores deben tener una **capacitación** especial y su circulación debe hacerse con la debida **precaución**, garantizando la seguridad de los demás usuarios.",
+    "palabras_clave": [
+      "Vehículos de emergencia",
+      "ambulancia",
+      "bomberos",
+      "Policía",
+      "prelación de paso",
+      "sirenas",
+      "luces de emergencia",
+      "servicio de urgencia"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 40,
+    "titulo_articulo": "Vehículos Agrícolas e Industriales",
+    "capitulo": "Vehículos (Capítulo VII, Título IV)",
+    "resumen": "Establece las condiciones de circulación para **vehículos agrícolas** (tractores, cosechadoras) e **industriales** (montacargas, maquinaria de construcción). Estos vehículos solo pueden transitar por las vías públicas de forma **ocasional** o en la necesidad de movilizarse entre lugares de trabajo, respetando los horarios y rutas que determine la autoridad de tránsito. Deben contar con la **autorización** correspondiente, **señalización** adecuada, y no deben exceder las **dimensiones** y **pesos** que puedan dañar la infraestructura vial.",
+    "palabras_clave": [
+      "Vehículos agrícolas",
+      "maquinaria industrial",
+      "circulación ocasional",
+      "autorización de tránsito",
+      "señalización",
+      "vías públicas",
+      "infraestructura vial"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 41,
+    "titulo_articulo": "Licencia de Tránsito",
+    "capitulo": "Documentos de Tránsito (Capítulo I, Título V)",
+    "resumen": "Reitera la obligatoriedad de que todo vehículo matriculado debe portar la **Licencia de Tránsito** (Tarjeta de Propiedad) expedida por la autoridad de tránsito competente e inscrita en el **RUNT**. Este documento es indispensable para la circulación y debe ser presentado a la autoridad de tránsito cuando sea solicitado. La Licencia de Tránsito contiene las características del vehículo y la **identificación legal** de su propietario, siendo la prueba de su registro en el **Registro Nacional de Automotores (RNA)**.",
+    "palabras_clave": [
+      "Licencia de Tránsito",
+      "Tarjeta de Propiedad",
+      "documentos de tránsito",
+      "obligatorio",
+      "RUNT",
+      "propietario",
+      "circulación"
+    ],
+    "sanciones/multas": [
+      "No portar la Licencia de Tránsito: Multa (Infracción B.1, tipo B)."
+    ]
+  },
+  {
+    "numero_articulo": 42,
+    "titulo_articulo": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+    "capitulo": "Documentos de Tránsito (Capítulo II, Título V)",
+    "resumen": "Todo vehículo automotor, incluyendo remolques y semirremolques, debe contar obligatoriamente con el **SOAT** vigente, el cual cubre los **daños corporales** causados a personas en **accidentes de tránsito**. El SOAT tiene un fin social y garantiza la atención médica, indemnizaciones por incapacidad permanente o muerte, y gastos de transporte de las víctimas, **sin importar** quién tuvo la responsabilidad del accidente. Su posesión y vigencia son verificables por las autoridades a través de medios electrónicos (RUNT).",
+    "palabras_clave": [
+      "SOAT",
+      "Seguro Obligatorio",
+      "accidente de tránsito",
+      "daños corporales",
+      "obligatorio",
+      "vigencia",
+      "RUNT",
+      "atención médica"
+    ],
+    "sanciones/multas": [
+      "Conducir sin portar el SOAT o que este no se encuentre vigente: Multa e Inmovilización del vehículo (Infracción D.2, tipo D)."
+    ]
+  },
+  {
+    "numero_articulo": 43,
+    "titulo_articulo": "Tarjeta de Operación",
+    "capitulo": "Documentos de Tránsito (Capítulo III, Título V)",
+    "resumen": "La **Tarjeta de Operación** es el documento esencial para los vehículos destinados al **servicio público de transporte** (pasajeros o carga), expedido por la autoridad de transporte competente. Este documento autoriza al vehículo para prestar el servicio bajo unas condiciones y rutas específicas. La Tarjeta de Operación debe ser **portada obligatoriamente** y exhibida en un lugar visible del vehículo. Su vigencia y renovación están sujetas al cumplimiento de la normativa de transporte.",
+    "palabras_clave": [
+      "Tarjeta de Operación",
+      "servicio público",
+      "transporte de pasajeros",
+      "transporte de carga",
+      "autorización",
+      "obligatorio",
+      "Ministerio de Transporte"
+    ],
+    "sanciones/multas": [
+      "No portar la Tarjeta de Operación: Multa (Infracción B.1, tipo B)."
+    ]
+  },
+  {
+    "numero_articulo": 44,
+    "titulo_articulo": "Manifiesto de Carga",
+    "capitulo": "Documentos de Tránsito (Capítulo IV, Título V)",
+    "resumen": "El **Manifiesto de Carga** es el documento que ampara el **transporte de mercancías** o carga en vehículos de servicio público. Este documento identifica la carga, su origen, destino, el remitente y el destinatario, y debe ser **portado obligatoriamente** por el conductor durante todo el trayecto. Es la prueba del contrato de transporte y permite a las autoridades ejercer el control sobre la legalidad y condiciones del servicio. Su no porte o alteración es causal de sanción.",
+    "palabras_clave": [
+      "Manifiesto de Carga",
+      "transporte de mercancías",
+      "servicio público de carga",
+      "documento de control",
+      "obligatorio",
+      "legalidad"
+    ],
+    "sanciones/multas": [
+      "Transportar carga sin el Manifiesto de Carga: Multa e Inmovilización (Infracción D.12, tipo D)."
+    ]
+  },
+  {
+    "numero_articulo": 45,
+    "titulo_articulo": "Uso de Vidrios Oscuros",
+    "capitulo": "Documentos de Tránsito (Capítulo V, Título V)",
+    "resumen": "Reglamenta el uso de **vidrios polarizados**, **entintados** u **oscurecidos** en los vehículos. El Ministerio de Transporte, junto con el Ministerio de Defensa Nacional (Policía), establecerá los **niveles de transmisión lumínica** permitidos en los vidrios de los vehículos, buscando garantizar la **visibilidad** del conductor hacia el exterior y, al mismo tiempo, permitir a las autoridades la visualización del interior del vehículo. Su uso requiere la **autorización** correspondiente si excede los límites reglamentarios.",
+    "palabras_clave": [
+      "Vidrios oscuros",
+      "polarizados",
+      "entintados",
+      "transmisión lumínica",
+      "autorización",
+      "visibilidad",
+      "seguridad"
+    ],
+    "sanciones/multas": [
+      "Conducir un vehículo con vidrios polarizados o *tintados* sin el permiso o la reglamentación: Multa (Infracción C.13, tipo C)."
+    ]
+  },
+  {
+    "numero_articulo": 46,
+    "titulo_articulo": "Transporte de Pasajeros con Discapacidades",
+    "capitulo": "Documentos de Tránsito (Capítulo V, Título V)",
+    "resumen": "Establece la obligatoriedad para el **servicio público de transporte de pasajeros** de tomar medidas para garantizar la **accesibilidad** y el transporte seguro de personas con **discapacidades físicas** o **movilidad reducida**. Esto incluye la adopción de vehículos y equipos adecuados (rampas, espacios reservados) y la capacitación del personal para ofrecer una **atención prioritaria**. Se promueve la eliminación de **barreras arquitectónicas** en el transporte.",
+    "palabras_clave": [
+      "Discapacidades",
+      "movilidad reducida",
+      "accesibilidad",
+      "transporte público",
+      "rampas",
+      "atención prioritaria",
+      "barreras arquitectónicas"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 47,
+    "titulo_articulo": "Tarifa y Condiciones de Transporte (Serv. Público)",
+    "capitulo": "Documentos de Tránsito (Capítulo V, Título V)",
+    "resumen": "Las **tarifas** del servicio público de transporte (pasajeros y carga) deben ser fijadas por la **autoridad competente** (Ministerio de Transporte o autoridades territoriales), bajo criterios de **calidad**, **seguridad** y **racionalidad** económica. Los vehículos deben portar visiblemente la información de las tarifas autorizadas. Se prohíbe el cobro de tarifas superiores a las autorizadas y se exige la prestación del servicio bajo condiciones de **higiene**, **comodidad** y **oportunidad**.",
+    "palabras_clave": [
+      "Tarifas",
+      "servicio público",
+      "autoridad competente",
+      "calidad",
+      "seguridad",
+      "cobro ilegal",
+      "higiene"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 48,
+    "titulo_articulo": "Centros de Enseñanza Automovilística (CEA)",
+    "capitulo": "Centros de Enseñanza (Capítulo I, Título VI)",
+    "resumen": "Reglamenta la existencia y el funcionamiento de los **Centros de Enseñanza Automovilística (CEA)**, responsables de la **capacitación** de los aspirantes a obtener la Licencia de Conducción. Los CEA deben estar **autorizados** por el Ministerio de Transporte, cumplir con requisitos de **infraestructura**, **vehículos** adecuados para la enseñanza, y contar con un equipo de **instructores** certificados. Sus cursos deben estar debidamente registrados en el **RUNT**.",
+    "palabras_clave": [
+      "CEA",
+      "Centros de Enseñanza",
+      "curso de conducción",
+      "capacitación",
+      "Licencia de Conducción",
+      "RUNT",
+      "instructores"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 49,
+    "titulo_articulo": "Exámenes de Aptitud",
+    "capitulo": "Centros de Enseñanza (Capítulo II, Título VI)",
+    "resumen": "Establece los **exámenes de aptitud** (física, mental y de coordinación motriz) como requisito indispensable para obtener o renovar la Licencia de Conducción. Estos exámenes deben ser realizados por los **Centros de Reconocimiento de Conductores (CRC)**, autorizados y vigilados por la autoridad competente. El resultado debe ser cargado directamente al **RUNT**. Se garantiza que el examen médico evalúe la capacidad real del aspirante para conducir de manera segura.",
+    "palabras_clave": [
+      "Exámenes de aptitud",
+      "CRC",
+      "Certificado médico",
+      "Licencia de Conducción",
+      "renovación",
+      "RUNT",
+      "seguridad vial"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 50,
+    "titulo_articulo": "Uso Obligatorio del Cinturón de Seguridad",
+    "capitulo": "Disposiciones Comunes (Capítulo I, Título VII)",
+    "resumen": "Establece la obligatoriedad para todos los ocupantes de un vehículo (conductor y pasajeros) de utilizar el **cinturón de seguridad** en los asientos donde esté instalado, tanto en las vías urbanas como en las carreteras nacionales. Su uso es una medida pasiva fundamental para la **prevención de lesiones graves** o la muerte en caso de **accidente de tránsito**. El incumplimiento es causal de sanción pecuniaria.",
+    "palabras_clave": [
+      "Cinturón de seguridad",
+      "uso obligatorio",
+      "conductor",
+      "pasajeros",
+      "seguridad pasiva",
+      "prevención de lesiones",
+      "accidente de tránsito"
+    ],
+    "sanciones/multas": [
+      "No usar el cinturón de seguridad: Multa (Infracción C.4, tipo C)."
+    ]
+  },
+  {
+    "numero_articulo": 51,
+    "titulo_articulo": "Casco",
+    "capitulo": "Disposiciones Comunes (Capítulo II, Título VII)",
+    "resumen": "Es **obligatorio** para los **conductores y acompañantes de motocicletas, motocarros, mototriciclos y cuatrimotos** el uso de **casco de seguridad** debidamente abrochado. El casco debe cumplir con las **normas técnicas** colombianas (NTC) o internacionales que garanticen la **protección** de la cabeza en caso de accidente. El Ministerio de Transporte reglamentará las especificaciones del casco y la forma correcta de su uso, buscando reducir la gravedad de las lesiones craneales.",
+    "palabras_clave": [
+      "Casco",
+      "motocicleta",
+      "uso obligatorio",
+      "conductor",
+      "acompañante",
+      "normas técnicas",
+      "protección"
+    ],
+    "sanciones/multas": [
+      "No usar el casco de seguridad: Multa (Infracción C.25, tipo C)."
+    ]
+  },
+  {
+    "numero_articulo": 52,
+    "titulo_articulo": "Chalecos Reflectivos",
+    "capitulo": "Disposiciones Comunes (Capítulo III, Título VII)",
+    "resumen": "Los **conductores y acompañantes de motocicletas, motocarros y mototriciclos** deben usar **chalecos o chaquetas reflectivas** de alta visibilidad, reglamentados por el Ministerio de Transporte. El uso es **obligatorio** entre las 6:00 p.m. y las 6:00 a.m. del día siguiente, y siempre que las condiciones de **visibilidad** lo requieran. El propósito es que los motociclistas sean fácilmente identificables por otros actores viales, minimizando el riesgo de accidentes nocturnos.",
+    "palabras_clave": [
+      "Chalecos reflectivos",
+      "motocicletas",
+      "obligatorio",
+      "seguridad nocturna",
+      "alta visibilidad",
+      "Ministerio de Transporte"
+    ],
+    "sanciones/multas": [
+      "No usar prendas reflectivas en el horario establecido: Multa (Infracción D.5, tipo D)."
+    ]
+  },
+  {
+    "numero_articulo": 53,
+    "titulo_articulo": "Transporte de Escolares",
+    "capitulo": "Disposiciones Comunes (Capítulo IV, Título VII)",
+    "resumen": "El **transporte escolar** está sujeto a una **reglamentación especial** más rigurosa, incluyendo requisitos sobre el **color** (amarillo) e identificación de los vehículos, la prohibición de llevar más pasajeros que la capacidad autorizada (**sobrecupo**), y la obligatoriedad de que los vehículos cuenten con **cinturones de seguridad** en todos los asientos y dispositivos de **señalización luminosa** y audible de detención. Se requiere que el conductor tenga una **Licencia de Conducción** de servicio público (categoría C) y experiencia calificada.",
+    "palabras_clave": [
+      "Transporte escolar",
+      "reglamentación especial",
+      "seguridad",
+      "sobrecupo",
+      "cinturones de seguridad",
+      "conductor calificado",
+      "vehículo amarillo"
+    ],
+    "sanciones/multas": [
+      "Prestar servicio de transporte escolar sin cumplir los requisitos: Multa e Inmovilización (Infracción D.3 o E, según gravedad)."
+    ]
+  },
+  {
+    "numero_articulo": 54,
+    "titulo_articulo": "Cuidado Integral",
+    "capitulo": "Disposiciones Comunes (Capítulo V, Título VII)",
+    "resumen": "Establece la obligación de todos los actores viales y autoridades de velar por el **cuidado integral** de la **infraestructura vial**. Se prohíben acciones que causen **daño** o **deterioro** a la vía, a la señalización, a los puentes, o a cualquier elemento del espacio público destinado al tránsito. La reparación de los daños causados es responsabilidad del infractor, sin perjuicio de las sanciones penales o administrativas que correspondan.",
+    "palabras_clave": [
+      "Cuidado integral",
+      "infraestructura vial",
+      "deterioro",
+      "daños a la vía",
+      "señalización",
+      "espacio público",
+      "responsabilidad"
+    ],
+    "sanciones/multas": [
+      "Dañar o deteriorar la infraestructura o señalización: Multa (Infracción D.13, tipo D)."
+    ]
+  },
+  {
+    "numero_articulo": 55,
+    "titulo_articulo": "Comportamiento del Conductor",
+    "capitulo": "Disposiciones Comunes (Capítulo VI, Título VII)",
+    "resumen": "Todo conductor debe comportarse de manera que **no obstaculice**, **perjudique** o **ponga en riesgo** a las demás personas. Se exige el uso de la **prudencia** y el **cuidado** en la conducción, especialmente con **peatones** y **ciclistas**. Los conductores deben acatar las órdenes de las autoridades y las señales de tránsito. El conductor tiene la **responsabilidad** de la seguridad de sus pasajeros y de la adecuada operación del vehículo, incluyendo la prohibición de conducir en estado de **embriaguez** o bajo el efecto de **sustancias psicoactivas**.",
+    "palabras_clave": [
+      "Comportamiento del conductor",
+      "prudencia",
+      "cuidado",
+      "seguridad vial",
+      "embriaguez",
+      "sustancias psicoactivas",
+      "responsabilidad"
+    ],
+    "sanciones/multas": [
+      "Conducir bajo el influjo de alcohol o drogas: Multa, Suspensión/Cancelación de licencia e Inmovilización (Infracción F, tipo F)."
+    ]
+  },
+  {
+    "numero_articulo": 56,
+    "titulo_articulo": "Conducción sin Portar la Licencia",
+    "capitulo": "Disposiciones Comunes (Capítulo VI, Título VII)",
+    "resumen": "Se establece la prohibición de conducir cualquier vehículo automotor sin portar la **Licencia de Conducción** correspondiente a la **categoría** del vehículo. La autoridad de tránsito puede verificar la existencia y vigencia de la licencia mediante la consulta al **RUNT**. No portarla o llevarla vencida es causal de sanción, mientras que **no haberla obtenido nunca** o llevarla **suspendida/cancelada** es una infracción de mayor gravedad con implicación de inmovilización.",
+    "palabras_clave": [
+      "Conducción sin licencia",
+      "portar documento",
+      "RUNT",
+      "categoría",
+      "licencia vencida",
+      "prohibición"
+    ],
+    "sanciones/multas": [
+      "Conducir sin llevar la licencia: Multa (Infracción B.1, tipo B).",
+      "Conducir con licencia vencida: Multa (Infracción B.2, tipo B).",
+      "Conducir sin haber obtenido licencia: Multa e Inmovilización (Infracción D.1, tipo D)."
+    ]
+  },
+  {
+    "numero_articulo": 57,
+    "titulo_articulo": "Señales Manuales y Sonoras",
+    "capitulo": "Disposiciones Comunes (Capítulo VI, Título VII)",
+    "resumen": "Establece el uso de **señales manuales** por parte del conductor cuando las señales eléctricas (direccionales) no funcionen o para complementarlas. Se detallan las señales con los **brazos** para indicar giro a la derecha, giro a la izquierda y reducción de velocidad. También se regula el uso de la **bocina** o **claxon**, permitiendo su uso únicamente para prevenir accidentes o alertar sobre un peligro inminente, y prohibiendo su uso innecesario o para molestar a otros actores viales.",
+    "palabras_clave": [
+      "Señales manuales",
+      "bocina",
+      "claxon",
+      "prevención de accidentes",
+      "giro a la izquierda",
+      "reducción de velocidad"
+    ],
+    "sanciones/multas": [
+      "Uso indebido de la bocina o de señales sonoras: Multa (Infracción C.2, tipo C)."
+    ]
+  },
+  {
+    "numero_articulo": 58,
+    "titulo_articulo": "Peatones y Ciclistas",
+    "capitulo": "Normas para Peatones y Ciclistas (Capítulo I, Título VIII)",
+    "resumen": "Otorga **prioridad** a la circulación del **peatón** y del **ciclista** sobre los vehículos automotores, reconociéndolos como los actores viales más vulnerables. Establece las normas de comportamiento para los peatones (usar andenes, cruzar por las cebras o puentes peatonales) y para los ciclistas (usar ciclorrutas, respetar la **señalización**). Las autoridades de tránsito deben garantizar la **protección** y **seguridad vial** de estos usuarios mediante la implementación de infraestructura adecuada y campañas de educación.",
+    "palabras_clave": [
+      "Peatones",
+      "Ciclistas",
+      "prioridad en la vía",
+      "actor vial vulnerable",
+      "andenes",
+      "cebras",
+      "ciclorrutas",
+      "seguridad"
+    ],
+    "sanciones/multas": [
+      "Ocupar el espacio destinado al peatón: Multa (Infracción D.4, tipo D)."
+    ]
+  },
+  {
+    "numero_articulo": 59,
+    "titulo_articulo": "Restricciones de Uso de la Vía",
+    "capitulo": "Normas de Comportamiento (Capítulo II, Título VIII)",
+    "resumen": "La autoridad de tránsito está facultada para imponer **restricciones temporales o permanentes** a la circulación de vehículos o personas en determinadas vías o zonas, cuando sea necesario por razones de **seguridad**, **orden público**, **salud**, o para la ejecución de **obras de infraestructura**. Estas restricciones deben ser debidamente **señalizadas** y comunicadas. Se incluyen restricciones por **hora pico**, **días festivos** o por **eventos masivos**.",
+    "palabras_clave": [
+      "Restricciones de tránsito",
+      "autoridad de tránsito",
+      "seguridad vial",
+      "orden público",
+      "obras viales",
+      "señalización",
+      "pico y placa"
+    ],
+    "sanciones/multas": [
+      "Transitar en horas o sitios restringidos (ej. Pico y Placa): Multa (Infracción C.14, tipo C)."
+    ]
+  },
+  {
+    "numero_articulo": 60,
+    "titulo_articulo": "Semáforos",
+    "capitulo": "Señales de Tránsito (Capítulo I, Título IX)",
+    "resumen": "Define el significado de las **luces del semáforo** para la regulación del tránsito. La luz **roja** significa detención total antes de la línea de pare, la luz **amarilla** indica prevención y la inminencia del cambio a rojo o verde, y la luz **verde** significa vía libre, siempre y cuando no se obstaculice la intersección. Se regula el significado de las **flechas luminosas** (giros) y de las luces intermitentes. Es de estricto cumplimiento y tiene prelación sobre las señales verticales, excepto las que indiquen detención por peligro.",
+    "palabras_clave": [
+      "Semáforos",
+      "señales luminosas",
+      "luz roja",
+      "luz verde",
+      "luz amarilla",
+      "intersección",
+      "prioridad",
+      "regulación del tránsito"
+    ],
+    "sanciones/multas": [
+      "No detenerse ante la luz roja o amarilla: Multa (Infracción D.4, tipo D)."
+    ]
+  }
+]

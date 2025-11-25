@@ -1,0 +1,484 @@
+[
+  {
+    "numero_articulo": 121,
+    "titulo_articulo": "Revisión de Peajes",
+    "capitulo": "Disposiciones Varias (Título XI)",
+    "resumen": "Faculta a las **autoridades competentes** (Ministerio de Transporte o autoridades locales) para realizar la **revisión periódica de las tarifas de los peajes**, buscando que el cobro sea justo, razonable y que se ajuste a las condiciones de uso y mantenimiento de la infraestructura vial. El objetivo es garantizar que la tasa de uso corresponda a la calidad del servicio prestado.",
+    "palabras_clave": [
+      "Revisión de peajes",
+      "tarifas",
+      "autoridades competentes",
+      "Ministerio de Transporte",
+      "infraestructura vial",
+      "justicia tarifaria"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 122,
+    "titulo_articulo": "Clases de Sanciones",
+    "capitulo": "Sanciones y Procedimientos (Capítulo I, Título XII)",
+    "resumen": "Establece las **clases de sanciones** que pueden imponerse por la violación de las normas de tránsito. Estas incluyen: **Amonestación** (verbal o escrita), **Multa** (pecuniaria), **Suspensión de la Licencia de Conducción**, **Cancelación de la Licencia de Conducción**, e **Inmovilización del Vehículo**. La gravedad de la infracción determina el tipo y la cuantía de la sanción.",
+    "palabras_clave": [
+      "Sanciones",
+      "multa",
+      "suspensión de licencia",
+      "cancelación de licencia",
+      "inmovilización",
+      "amonestación",
+      "gravedad de la infracción"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 123,
+    "titulo_articulo": "Competencia",
+    "capitulo": "Sanciones y Procedimientos (Capítulo I, Título XII)",
+    "resumen": "Define que la **imposición de sanciones** corresponde a las **autoridades de tránsito** (Inspectores de Tránsito, Corregidores o quien haga sus veces) en el lugar donde se cometió la infracción. Esta competencia debe ejercerse mediante el debido proceso y respetando el derecho de defensa del presunto infractor. Los **agentes de tránsito** están facultados para elaborar el comparendo, pero no para imponer la sanción.",
+    "palabras_clave": [
+      "Competencia sancionatoria",
+      "autoridades de tránsito",
+      "inspectores de tránsito",
+      "lugar de la infracción",
+      "debido proceso",
+      "agente de tránsito"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 124,
+    "titulo_articulo": "Reincidencia",
+    "capitulo": "Sanciones y Procedimientos (Capítulo I, Título XII)",
+    "resumen": "Define la **reincidencia** como la comisión de más de una infracción de tránsito en un período determinado (generalmente seis meses). El conductor que reincida será sancionado con la **suspensión de la licencia de conducción** por un término que puede ser mayor al de la primera infracción. En caso de **múltiple reincidencia** en infracciones de tipo D y E, la autoridad podrá aplicar la **cancelación definitiva** de la licencia, elevando la severidad de la pena.",
+    "palabras_clave": [
+      "Reincidencia",
+      "infracciones reiteradas",
+      "suspensión de licencia",
+      "cancelación de licencia",
+      "severidad de la pena",
+      "periodo de seis meses"
+    ],
+    "sanciones/multas": [
+      "Reincidencia: Suspensión de la licencia de 6 meses a un año."
+    ]
+  },
+  {
+    "numero_articulo": 125,
+    "titulo_articulo": "Inmovilización",
+    "capitulo": "Sanciones y Procedimientos (Capítulo I, Título XII)",
+    "resumen": "La **inmovilización** es una sanción complementaria que consiste en la suspensión temporal de la circulación del vehículo, siendo este trasladado a los **patios de retención** o un sitio autorizado. Esta medida se aplica en infracciones de **tipo D y E** o cuando el vehículo representa un peligro inminente (ej. falta de SOAT, embriaguez, llantas lisas). El vehículo solo podrá ser retirado por su propietario una vez se subsane la causa de la inmovilización y se pague el valor de la multa y los costos de grúa y parqueadero.",
+    "palabras_clave": [
+      "Inmovilización",
+      "sanción complementaria",
+      "patios de retención",
+      "falta de SOAT",
+      "embriaguez",
+      "llantas lisas",
+      "subsanar la causa"
+    ],
+    "sanciones/multas": [
+      "Inmovilización del vehículo (Aplicable a infracciones D y E)."
+    ]
+  },
+  {
+    "numero_articulo": 126,
+    "titulo_articulo": "Retención Preventiva del Vehículo",
+    "capitulo": "Sanciones y Procedimientos (Capítulo I, Título XII)",
+    "resumen": "La **retención preventiva** es una medida temporal que el agente de tránsito puede aplicar en el sitio de la infracción cuando el vehículo no cumple con las **condiciones mínimas de seguridad** (ej. luces dañadas, frenos defectuosos) o cuando se ha cometido una infracción que implica inmovilización. La retención se mantiene solo por el tiempo necesario para subsanar el defecto o para ser trasladado a los patios, garantizando que el vehículo no continúe generando un riesgo.",
+    "palabras_clave": [
+      "Retención preventiva",
+      "agente de tránsito",
+      "condiciones de seguridad",
+      "medida temporal",
+      "subsanar defecto",
+      "riesgo inminente"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 127,
+    "titulo_articulo": "Procedimiento de Inmovilización",
+    "capitulo": "Sanciones y Procedimientos (Capítulo I, Título XII)",
+    "resumen": "Detalla el **procedimiento** que debe seguir el agente de tránsito para la inmovilización. Debe elaborar el **comparendo** y, si es necesario, solicitar el servicio de **grúa** para trasladar el vehículo a los patios oficiales. El comparendo debe indicar claramente la causa de la inmovilización. Se exige al agente **respetar los bienes** y pertenencias del vehículo y entregar un inventario detallado del estado del automotor.",
+    "palabras_clave": [
+      "Procedimiento de inmovilización",
+      "agente de tránsito",
+      "comparendo",
+      "grúa",
+      "patios oficiales",
+      "inventario",
+      "debido proceso"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 128,
+    "titulo_articulo": "Retiro del Vehículo de los Patios",
+    "capitulo": "Sanciones y Procedimientos (Capítulo I, Título XII)",
+    "resumen": "Establece que, una vez el vehículo ha sido inmovilizado, el infractor o propietario debe **subsanar la causa** que motivó la inmovilización, **pagar el valor de la multa**, y pagar los **costos de parqueadero y servicio de grúa** (si aplica). Solo después de cumplir con estos requisitos, la autoridad de tránsito autorizará la salida del vehículo de los patios de retención.",
+    "palabras_clave": [
+      "Retiro del vehículo",
+      "patios de retención",
+      "subsanar la causa",
+      "pago de multa",
+      "grúa y parqueadero",
+      "autorización"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 129,
+    "titulo_articulo": "De la Cancelación de la Licencia de Conducción",
+    "capitulo": "Sanciones y Procedimientos (Capítulo I, Título XII)",
+    "resumen": "Establece las **causales para la cancelación definitiva** de la Licencia de Conducción, entre ellas: 1. Reincidencia en la conducción bajo el **influjo del alcohol o drogas**; 2. Por haber sido condenado por un delito en el cual se utilizó un vehículo; 3. Por la **reincidencia** en infracciones de **tipo D y E**; 4. Por incapacidad física o mental sobreviniente demostrada. La cancelación implica que el conductor no podrá volver a obtener la licencia durante un período mínimo de tres (3) años o, en algunos casos, de manera definitiva.",
+    "palabras_clave": [
+      "Cancelación de licencia",
+      "causales",
+      "embriaguez",
+      "drogas",
+      "delitos con vehículo",
+      "reincidencia grave",
+      "incapacidad sobreviniente"
+    ],
+    "sanciones/multas": [
+      "Cancelación de la Licencia de Conducción (aplicable a infracciones graves o reincidentes)."
+    ]
+  },
+  {
+    "numero_articulo": 130,
+    "titulo_articulo": "Causales de Suspensión",
+    "capitulo": "Sanciones y Procedimientos (Capítulo I, Título XII)",
+    "resumen": "Establece las **causales para la suspensión** de la Licencia de Conducción por un período de **seis (6) meses a tres (3) años**. Incluye: 1. Reincidencia en infracciones tipo C o B; 2. Por decisión judicial o administrativa; 3. Por encontrarse en estado de **embriaguez** (sanción inicial antes de la cancelación). La suspensión es temporal, y al finalizar el plazo, el conductor puede solicitar la devolución de su licencia, previo cumplimiento de los requisitos y pago de multas.",
+    "palabras_clave": [
+      "Suspensión de licencia",
+      "causales",
+      "reincidencia",
+      "embriaguez",
+      "plazo",
+      "decisión judicial",
+      "temporal"
+    ],
+    "sanciones/multas": [
+      "Suspensión de la Licencia de Conducción (6 meses a 3 años)."
+    ]
+  },
+  {
+    "numero_articulo": 131,
+    "titulo_articulo": "Multas",
+    "capitulo": "Sanciones y Procedimientos (Capítulo II, Título XII)",
+    "resumen": "Define la **Multa** como la sanción pecuniaria que se impone al infractor. La norma clasifica las multas en **tipos A, B, C, D, E y F**, estableciendo su valor en salarios mínimos legales diarios vigentes (**SMLDV**). *Este artículo fue modificado por la Ley 1383 de 2010 y otras posteriores, actualizando la tabla de infracciones y sus valores.* El parágrafo adicionado por la Ley 1383 de 2010 establece los **descuentos** por pronto pago y la obligatoriedad de realizar un **curso pedagógico** de seguridad vial.",
+    "palabras_clave": [
+      "Multas",
+      "sanción pecuniaria",
+      "SMLDV",
+      "clases de infracciones",
+      "descuento por pronto pago",
+      "curso pedagógico",
+      "Ley 1383 de 2010"
+    ],
+    "sanciones/multas": [
+      "Multa pecuniaria (valor según tipo A, B, C, D, E, F)."
+    ]
+  },
+  {
+    "numero_articulo": 132,
+    "titulo_articulo": "Curso de Educación Vial",
+    "capitulo": "Sanciones y Procedimientos (Capítulo II, Título XII)",
+    "resumen": "Establece la obligatoriedad de realizar un **curso de educación vial** para aquellos infractores que deseen acogerse a los **descuentos por pronto pago** de las multas. Este curso debe ser impartido por los **Centros Integrales de Atención (CIA)**, autorizados y vigilados por el Ministerio de Transporte. El curso busca un fin pedagógico para la corrección de las conductas de riesgo, promoviendo la seguridad vial.",
+    "palabras_clave": [
+      "Curso de educación vial",
+      "obligatorio",
+      "descuentos",
+      "Centros Integrales de Atención (CIA)",
+      "seguridad vial",
+      "fin pedagógico"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 133,
+    "titulo_articulo": "Infracciones de los Peatones",
+    "capitulo": "Sanciones y Procedimientos (Capítulo II, Título XII)",
+    "resumen": "Establece las **infracciones específicas** que pueden cometer los **peatones** (tipo A), como cruzar la vía por fuera de la cebra, no usar los puentes peatonales, o invadir la calzada. Inicialmente, estas infracciones se sancionaban con una multa equivalente a un (1) SMLDV, y la reincidencia podía implicar un curso. *Nota: La aplicación de las multas a peatones ha sido un tema de debate y reglamentación posterior debido a su dificultad en la imposición y cobro*.",
+    "palabras_clave": [
+      "Infracciones de peatones",
+      "tipo A",
+      "cruzar por la cebra",
+      "puentes peatonales",
+      "invasión de calzada",
+      "curso pedagógico"
+    ],
+    "sanciones/multas": [
+      "Multa (Infracciones A, valor en SMLDV)."
+    ]
+  },
+  {
+    "numero_articulo": 134,
+    "titulo_articulo": "Infracciones de los Ciclistas",
+    "capitulo": "Sanciones y Procedimientos (Capítulo II, Título XII)",
+    "resumen": "Establece las **infracciones específicas** que pueden cometer los **ciclistas** y los conductores de vehículos de tracción animal (tipo B), como transitar por andenes o zonas peatonales, sujetarse de otro vehículo o no usar las señales lumínicas nocturnas. Las sanciones son pecuniarias y la reincidencia puede acarrear la inmovilización temporal de la bicicleta o vehículo.",
+    "palabras_clave": [
+      "Infracciones de ciclistas",
+      "tipo B",
+      "tracción animal",
+      "uso de andenes",
+      "sujeción",
+      "señales lumínicas",
+      "inmovilización"
+    ],
+    "sanciones/multas": [
+      "Multa (Infracciones B, valor en SMLDV)."
+    ]
+  },
+  {
+    "numero_articulo": 135,
+    "titulo_articulo": "Procedimiento",
+    "capitulo": "Sanciones y Procedimientos (Capítulo III, Título XII)",
+    "resumen": "Detalla el **procedimiento** para la imposición de una multa. El **agente de tránsito** debe elaborar la **orden de comparendo** y notificarla al presunto infractor en el sitio de la infracción, entregándole una copia. El comparendo debe indicar la norma infringida, la fecha, hora, lugar y el valor de la multa. El comparendo otorga al infractor el derecho a comparecer ante la autoridad de tránsito para la audiencia pública de descargos.",
+    "palabras_clave": [
+      "Procedimiento de multa",
+      "agente de tránsito",
+      "orden de comparendo",
+      "notificación",
+      "audiencia de descargos",
+      "debido proceso"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 136,
+    "titulo_articulo": "Reducción de la Multa",
+    "capitulo": "Sanciones y Procedimientos (Capítulo III, Título XII)",
+    "resumen": "El infractor tiene derecho a un **descuento en el valor de la multa** por **pronto pago**. Si paga dentro de los **cinco (5) días hábiles** siguientes a la imposición del comparendo, tiene derecho a un descuento del **cincuenta por ciento (50%)**, y si paga entre los días sexto y veinte, tiene derecho a un descuento del veinticinco por ciento (25%). Para acceder al descuento, debe realizar obligatoriamente el **curso pedagógico** de seguridad vial.",
+    "palabras_clave": [
+      "Reducción de la multa",
+      "descuento",
+      "pronto pago",
+      "cinco días hábiles",
+      "cincuenta por ciento",
+      "curso pedagógico",
+      "veinte días"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 137,
+    "titulo_articulo": "Información",
+    "capitulo": "Sanciones y Procedimientos (Capítulo III, Título XII)",
+    "resumen": "Las **autoridades de tránsito** tienen la obligación de informar a los ciudadanos sobre las **normas de tránsito**, las **infracciones** y las **sanciones** aplicables, mediante campañas de educación y divulgación. Se debe garantizar la **transparencia** en el proceso sancionatorio, permitiendo al ciudadano acceder a la información de sus comparendos y estados de cuenta.",
+    "palabras_clave": [
+      "Información ciudadana",
+      "autoridades de tránsito",
+      "campañas de educación",
+      "divulgación",
+      "transparencia",
+      "comparendos"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 138,
+    "titulo_articulo": "Audiencia",
+    "capitulo": "Sanciones y Procedimientos (Capítulo III, Título XII)",
+    "resumen": "Si el infractor decide no acogerse al descuento por pronto pago, debe **comparecer** ante la **autoridad de tránsito** (Inspector) para la realización de una **audiencia pública de descargos**. Esta audiencia debe realizarse dentro de los **treinta (30) días siguientes** a la imposición del comparendo. En la audiencia, el infractor puede presentar sus pruebas y argumentos de defensa. La autoridad debe emitir una **resolución motivada** ratificando o desvirtuando la sanción.",
+    "palabras_clave": [
+      "Audiencia de descargos",
+      "autoridad de tránsito",
+      "inspector",
+      "pruebas de defensa",
+      "resolución motivada",
+      "treinta días",
+      "debido proceso"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 139,
+    "titulo_articulo": "Fallo",
+    "capitulo": "Sanciones y Procedimientos (Capítulo III, Título XII)",
+    "resumen": "Al finalizar la audiencia de descargos, la autoridad de tránsito competente (Inspector) debe proferir una **resolución motivada** que ponga fin al procedimiento contravencional. El fallo puede ser para **declarar al infractor responsable** y confirmar la multa, o para **declarar no responsable** y ordenar el archivo del expediente. El fallo debe ser notificado al interesado. Contra la resolución de sanción procede el **recurso de reposición**.",
+    "palabras_clave": [
+      "Fallo",
+      "resolución motivada",
+      "procedimiento contravencional",
+      "responsable",
+      "no responsable",
+      "notificación",
+      "recurso de reposición"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 140,
+    "titulo_articulo": "Cobro Coactivo",
+    "capitulo": "Sanciones y Procedimientos (Capítulo III, Título XII)",
+    "resumen": "Si la multa no es pagada en los términos establecidos, la resolución sancionatoria debidamente ejecutoriada (firme) presta **mérito ejecutivo**. La autoridad de tránsito puede iniciar un **proceso de cobro coactivo** contra el infractor, lo que implica el embargo de cuentas bancarias, bienes o salarios del deudor para el pago forzoso de la multa.",
+    "palabras_clave": [
+      "Cobro coactivo",
+      "mérito ejecutivo",
+      "multa impaga",
+      "embargo",
+      "proceso de cobro forzoso",
+      "autoridad de tránsito"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 141,
+    "titulo_articulo": "Prescripción",
+    "capitulo": "Sanciones y Procedimientos (Capítulo III, Título XII)",
+    "resumen": "Establece el término de **prescripción de la acción contravencional** y de la **sanción**. La acción contravencional (la facultad de la autoridad para imponer la multa) prescribe a los **tres (3) años** contados desde la fecha de la infracción. Una vez impuesta la multa mediante una resolución ejecutoriada, la sanción (la facultad para cobrar) prescribe a los **tres (3) años** contados desde la ejecutoria de la resolución. *Nota: Este artículo ha sido modificado, extendiendo el plazo de prescripción de la multa*.",
+    "palabras_clave": [
+      "Prescripción",
+      "acción contravencional",
+      "prescripción de la sanción",
+      "tres años",
+      "ejecutoria",
+      "término legal"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 142,
+    "titulo_articulo": "Proceso Contravencional por Infracciones Ambientales",
+    "capitulo": "Sanciones y Procedimientos (Capítulo IV, Título XII)",
+    "resumen": "Regula el procedimiento para la imposición de multas por **infracciones ambientales** causadas por vehículos (ej. emisión de gases contaminantes o ruido que excedan los límites permitidos). La autoridad de tránsito, en coordinación con las autoridades ambientales, debe realizar la prueba técnica y, si se confirma la infracción, iniciar el proceso sancionatorio, que es similar al proceso general de tránsito.",
+    "palabras_clave": [
+      "Infracciones ambientales",
+      "emisión de gases",
+      "ruido excesivo",
+      "prueba técnica",
+      "autoridades ambientales",
+      "proceso contravencional"
+    ],
+    "sanciones/multas": [
+      "Multa por contaminación e Inmovilización (Infracción D.15/C.35, tipo D/C)."
+    ]
+  },
+  {
+    "numero_articulo": 143,
+    "titulo_articulo": "Caducidad",
+    "capitulo": "Sanciones y Procedimientos (Capítulo IV, Título XII)",
+    "resumen": "Establece que la acción para imponer sanciones por infracciones ambientales **caducará** si la autoridad de tránsito no notifica el inicio del procedimiento al presunto infractor dentro de los **seis (6) meses** siguientes a la fecha en que se cometió la infracción o se tuvo conocimiento de ella. La caducidad extingue la facultad sancionadora de la autoridad.",
+    "palabras_clave": [
+      "Caducidad",
+      "infracciones ambientales",
+      "acción sancionadora",
+      "seis meses",
+      "notificación",
+      "extinción de la facultad"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 144,
+    "titulo_articulo": "Traslado de Infracciones Ambientales",
+    "capitulo": "Sanciones y Procedimientos (Capítulo IV, Título XII)",
+    "resumen": "Si el vehículo infractor fue matriculado en una **jurisdicción diferente** a aquella donde se cometió la infracción ambiental, la autoridad que impuso la multa debe **trasladar el comparendo** y el proceso sancionatorio a la autoridad de tránsito del lugar de matrícula para que esta se encargue del cobro y seguimiento, siempre y cuando el comparendo esté debidamente notificado al infractor.",
+    "palabras_clave": [
+      "Traslado de infracciones",
+      "infracciones ambientales",
+      "jurisdicción",
+      "lugar de matrícula",
+      "cobro",
+      "autoridad de tránsito"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 145,
+    "titulo_articulo": "Daños Materiales",
+    "capitulo": "Accidentes de Tránsito (Capítulo I, Título XIII)",
+    "resumen": "En los **accidentes de tránsito** en los que solo se presenten **daños materiales** y no haya lesionados o muertos, los conductores involucrados pueden optar por llegar a un **acuerdo amigable** para el pago de los daños. Si no hay acuerdo, la autoridad de tránsito deberá levantar el **Informe Policial de Accidentes de Tránsito (IPAT)**, el cual servirá como base para el proceso judicial o la conciliación de los daños. *Este artículo ha sido modificado por la Ley 2161 de 2021 para priorizar la conciliación de daños materiales sin presencia de autoridad en el sitio del accidente*.",
+    "palabras_clave": [
+      "Accidentes de tránsito",
+      "daños materiales",
+      "acuerdo amigable",
+      "IPAT",
+      "conciliación",
+      "Ley 2161 de 2021"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 146,
+    "titulo_articulo": "Manejo de Escombros",
+    "capitulo": "Accidentes de Tránsito (Capítulo I, Título XIII)",
+    "resumen": "En caso de accidente, los conductores involucrados o la autoridad de tránsito deben tomar las medidas necesarias para la **pronta remoción de los escombros** o cualquier obstáculo que haya quedado en la vía, con el fin de **restablecer el flujo vehicular** y evitar nuevos accidentes. La remoción debe hacerse garantizando la seguridad de los usuarios.",
+    "palabras_clave": [
+      "Manejo de escombros",
+      "accidente de tránsito",
+      "remoción de obstáculos",
+      "restablecimiento del flujo",
+      "seguridad vial"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 147,
+    "titulo_articulo": "Lesionados",
+    "capitulo": "Accidentes de Tránsito (Capítulo II, Título XIII)",
+    "resumen": "En caso de accidente con **lesionados** o **muertos**, el conductor está obligado a **detenerse** y **prestar los primeros auxilios** a la víctima o pedir ayuda inmediata. Se prohíbe **abandonar el lugar** del accidente. La autoridad de tránsito o policía debe ser notificada de inmediato para que acuda al lugar, levante el croquis y atienda la situación, sin perjuicio de las responsabilidades penales y civiles que correspondan.",
+    "palabras_clave": [
+      "Lesionados",
+      "muertos",
+      "obligación de socorro",
+      "abandonar el lugar",
+      "primeros auxilios",
+      "autoridad de tránsito",
+      "responsabilidad"
+    ],
+    "sanciones/multas": [
+      "Omitir el deber de socorro: Multa, Suspensión/Cancelación de licencia y acciones penales (Infracción F, tipo F)."
+    ]
+  },
+  {
+    "numero_articulo": 148,
+    "titulo_articulo": "Peritos",
+    "capitulo": "Accidentes de Tránsito (Capítulo II, Título XIII)",
+    "resumen": "En accidentes con lesionados o muertos, la autoridad de tránsito o la Policía Judicial debe solicitar la intervención de los **peritos técnicos** (ej. de criminalística) para determinar la **causa probable** del accidente y la responsabilidad de los involucrados. Los peritos son cruciales para la elaboración del IPAT y para el posterior proceso penal y civil.",
+    "palabras_clave": [
+      "Peritos",
+      "accidente de tránsito",
+      "causa probable",
+      "responsabilidad",
+      "IPAT",
+      "Policía Judicial",
+      "criminalística"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 149,
+    "titulo_articulo": "Informe Policial de Accidentes de Tránsito (IPAT)",
+    "capitulo": "Accidentes de Tránsito (Capítulo II, Título XIII)",
+    "resumen": "El **Informe Policial de Accidentes de Tránsito (IPAT)** es el documento oficial que la autoridad de tránsito o la Policía debe elaborar en el lugar de los hechos. Debe contener el croquis del accidente, la descripción de los vehículos, los daños, las lesiones y las hipótesis de causalidad. Es la base para determinar la responsabilidad administrativa, civil y penal y es crucial para el cobro del SOAT.",
+    "palabras_clave": [
+      "IPAT",
+      "Informe Policial",
+      "documento oficial",
+      "croquis",
+      "hipótesis de causalidad",
+      "responsabilidad",
+      "SOAT"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 150,
+    "titulo_articulo": "Fugas",
+    "capitulo": "Accidentes de Tránsito (Capítulo II, Título XIII)",
+    "resumen": "Se establece la sanción para el conductor que, estando involucrado en un accidente, **se fugue del lugar** de los hechos sin prestar ayuda o sin esperar a la autoridad. La fuga constituye un indicio de culpabilidad y un agravante. El conductor que se fugue será sancionado con la máxima pena administrativa (cancelación de la licencia y multas), sin perjuicio de la acción penal por omisión de socorro.",
+    "palabras_clave": [
+      "Fugas",
+      "accidente de tránsito",
+      "omisión de socorro",
+      "agravante",
+      "cancelación de licencia",
+      "indicativo de culpabilidad"
+    ],
+    "sanciones/multas": [
+      "Fugarse del lugar del accidente: Multa, Cancelación de licencia y acciones penales (Infracción F, tipo F)."
+    ]
+  }
+]

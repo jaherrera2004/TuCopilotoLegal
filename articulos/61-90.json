@@ -1,0 +1,529 @@
+[
+  {
+    "numero_articulo": 61,
+    "titulo_articulo": "Señales de Nomenclatura Vial",
+    "capitulo": "Señales de Tránsito (Capítulo II, Título IX)",
+    "resumen": "Las **señales de nomenclatura vial** tienen como finalidad identificar las **vías** (calles, carreras, avenidas) en áreas urbanas y rurales, y guiar a los conductores hacia su **destino**. Estas señales deben ajustarse a la **reglamentación técnica** del Ministerio de Transporte. Es fundamental que las autoridades de tránsito garanticen que estas señales sean **visibles**, estén en buen estado de conservación y cumplan con la **codificación** oficial (nomenclatura) para facilitar la orientación de los usuarios.",
+    "palabras_clave": [
+      "Señales de nomenclatura",
+      "señalización vial",
+      "identificación de vías",
+      "orientación",
+      "calles",
+      "carreras",
+      "Ministerio de Transporte"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 62,
+    "titulo_articulo": "Cruces de Peatones",
+    "capitulo": "Señales de Tránsito (Capítulo III, Título IX)",
+    "resumen": "Los cruces de peatones o **cebras** deben ser demarcados y señalizados en todas las **intersecciones** y en los puntos donde se requiera proteger al **peatón**. Se deben utilizar **puentes peatonales** o **pasos a desnivel** en zonas de alto flujo vehicular. Los conductores tienen la **obligación** de detenerse y ceder el paso al peatón que se encuentre cruzando por la zona demarcada, garantizando su **prioridad** y **seguridad vial**.",
+    "palabras_clave": [
+      "Cruces de peatones",
+      "cebras",
+      "pasos peatonales",
+      "prioridad del peatón",
+      "intersecciones",
+      "puentes peatonales",
+      "demarcación"
+    ],
+    "sanciones/multas": [
+      "No ceder el paso al peatón en un cruce legal: Multa (Infracción C.1, tipo C)."
+    ]
+  },
+  {
+    "numero_articulo": 63,
+    "titulo_articulo": "Uso de las Señales",
+    "capitulo": "Señales de Tránsito (Capítulo IV, Título IX)",
+    "resumen": "Las **señales de tránsito** son de cumplimiento **obligatorio** por todos los usuarios de la vía, incluyendo peatones, ciclistas y conductores. Las señales se clasifican en: **reglamentarias** (prohíben o limitan), **preventivas** (advierten peligro) e **informativas** (guían). En caso de conflicto entre un agente de tránsito y las señales, prevalece la orden del **agente**. En caso de conflicto entre diferentes señales, prevalece la que indique una **detención por peligro** o la orden de un agente.",
+    "palabras_clave": [
+      "Uso de señales",
+      "cumplimiento obligatorio",
+      "señales reglamentarias",
+      "señales preventivas",
+      "señales informativas",
+      "agente de tránsito",
+      "prelación"
+    ],
+    "sanciones/multas": [
+      "Incumplir, desobedecer o no acatar las señales de tránsito: Multa (Infracción C.24, tipo C)."
+    ]
+  },
+  {
+    "numero_articulo": 64,
+    "titulo_articulo": "Vía Férrea",
+    "capitulo": "Señales de Tránsito (Capítulo IV, Título IX)",
+    "resumen": "Establece la **obligatoriedad** de que todo vehículo se detenga completamente antes de cruzar una **vía férrea**. Los conductores deben asegurarse de que no se aproxima ningún tren y de que las barreras o las señales luminosas/audibles lo permitan. En las intersecciones con vías férreas, el **tren tiene siempre la prelación de paso** sobre cualquier otro vehículo. Las vías férreas deben estar debidamente **señalizadas** con señales preventivas de 'Paso a Nivel'.",
+    "palabras_clave": [
+      "Vía férrea",
+      "cruce ferroviario",
+      "detención obligatoria",
+      "tren",
+      "prelación de paso",
+      "paso a nivel",
+      "señalización"
+    ],
+    "sanciones/multas": [
+      "No detenerse antes de una vía férrea: Multa (Infracción D.4, tipo D)."
+    ]
+  },
+  {
+    "numero_articulo": 65,
+    "titulo_articulo": "Información a los Ciudadanos",
+    "capitulo": "Señales de Tránsito (Capítulo V, Título IX)",
+    "resumen": "Las autoridades de tránsito tienen la obligación de mantener informados a los usuarios sobre las **modificaciones temporales o permanentes** de las **reglas de circulación**, los desvíos, la **demarcación de obras** o cualquier situación que afecte el normal desarrollo del tránsito. Esta información debe ser difundida a través de medios masivos y mediante la instalación de la **señalización** adecuada, garantizando que sea clara y oportuna para la prevención de accidentes.",
+    "palabras_clave": [
+      "Información ciudadana",
+      "autoridades de tránsito",
+      "modificaciones de tránsito",
+      "obras viales",
+      "desvíos",
+      "señalización informativa",
+      "prevención"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 66,
+    "titulo_articulo": "Prevalencia",
+    "capitulo": "Señales de Tránsito (Capítulo VI, Título IX)",
+    "resumen": "Establece la **prelación** o el orden de prioridad que deben seguir los usuarios de la vía cuando existe conflicto entre diferentes tipos de señales o mandatos: 1. Órdenes y señales de los **Agentes de Tránsito**; 2. **Semáforos**; 3. **Señales verticales** (reglamentarias, preventivas e informativas); 4. **Señales horizontales** (demarcación vial). Esto asegura una cadena de mando clara en la regulación del flujo vehicular y peatonal.",
+    "palabras_clave": [
+      "Prevalencia",
+      "prelación",
+      "jerarquía de señales",
+      "agentes de tránsito",
+      "semáforos",
+      "señales verticales",
+      "demarcación vial"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 67,
+    "titulo_articulo": "Obligación de Señalizar",
+    "capitulo": "Señales de Tránsito (Capítulo VI, Título IX)",
+    "resumen": "Toda persona natural o jurídica que realice **obras** o actividades en la **vía pública** que puedan obstaculizar o poner en peligro el tránsito, tiene la **obligación** de colocar y mantener la **señalización** y la **iluminación** adecuada para advertir el peligro a los usuarios. Los responsables deben obtener la debida **autorización** de la autoridad de tránsito y son responsables de los daños que se causen por la falta o inadecuada señalización. La autoridad puede instalar la señalización y cobrar los costos al responsable.",
+    "palabras_clave": [
+      "Obligación de señalizar",
+      "obras en la vía",
+      "peligro",
+      "iluminación",
+      "autorización",
+      "responsabilidad",
+      "obstaculización"
+    ],
+    "sanciones/multas": [
+      "Realizar obras o instalar elementos sin permiso o sin señalización: Multa (Infracción D.13, tipo D)."
+    ]
+  },
+  {
+    "numero_articulo": 68,
+    "titulo_articulo": "Uso de la Vía",
+    "capitulo": "Reglas Generales de Comportamiento (Capítulo I, Título X)",
+    "resumen": "Establece que las vías públicas se deben usar de manera **ordenada** y **segura**. Los vehículos deben circular por la **calzada** y los peatones por los **andenes** o zonas peatonales. Se prohíbe el uso de la vía para realizar actividades que obstaculicen el tránsito (ej. juegos, ventas ambulantes no autorizadas) o que generen un riesgo. Los animales que transiten por la vía también son regulados, prohibiendo la circulación de **ganado** o animales sueltos que puedan causar accidentes.",
+    "palabras_clave": [
+      "Uso de la vía",
+      "orden",
+      "seguridad",
+      "calzada",
+      "andenes",
+      "obstaculización",
+      "animales sueltos",
+      "reglas de comportamiento"
+    ],
+    "sanciones/multas": [
+      "Permitir que el ganado o animales transiten por la vía: Multa (Infracción D.6, tipo D)."
+    ]
+  },
+  {
+    "numero_articulo": 69,
+    "titulo_articulo": "Cumplimiento",
+    "capitulo": "Reglas Generales de Comportamiento (Capítulo I, Título X)",
+    "resumen": "Reitera que los usuarios de la vía deben obedecer las **órdenes** e **instrucciones** de los **agentes de tránsito** y las **señales de tránsito**. El incumplimiento de estas disposiciones, incluyendo la negación a someterse a pruebas (ej. alcoholemia), conlleva la imposición de las **sanciones** establecidas en el Código, garantizando el principio de **autoridad** y el orden en la circulación.",
+    "palabras_clave": [
+      "Cumplimiento",
+      "obediencia",
+      "agentes de tránsito",
+      "órdenes",
+      "sanciones",
+      "alcoholemia",
+      "autoridad"
+    ],
+    "sanciones/multas": [
+      "Desobedecer la orden de un agente de tránsito: Multa (Infracción C.29, tipo C)."
+    ]
+  },
+  {
+    "numero_articulo": 70,
+    "titulo_articulo": "Reducción de Velocidad",
+    "capitulo": "Límites de Velocidad (Capítulo II, Título X)",
+    "resumen": "Establece la obligatoriedad de **reducir la velocidad** y, si es necesario, detener el vehículo en situaciones que comprometan la **seguridad vial**. Esto incluye, pero no se limita a, la aproximación a **cruces de peatones**, **intersecciones**, zonas escolares, áreas residenciales, curvas, pendientes y al pasar junto a **vehículos de emergencia** o **vehículos de servicio público** detenidos recogiendo o dejando pasajeros. La prudencia es el principio rector.",
+    "palabras_clave": [
+      "Reducción de velocidad",
+      "prudencia",
+      "seguridad vial",
+      "cruces de peatones",
+      "zonas escolares",
+      "intersecciones",
+      "vehículos de emergencia"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 71,
+    "titulo_articulo": "Límites de Velocidad en Vías Urbanas",
+    "capitulo": "Límites de Velocidad (Capítulo II, Título X)",
+    "resumen": "Fija los **límites máximos de velocidad** para la circulación de vehículos en **vías urbanas**. Inicialmente, el límite general era de 60 km/h, pero las modificaciones posteriores han permitido a las **autoridades locales** (Alcaldes/Organismos de Tránsito) fijar límites específicos, que pueden ser menores, especialmente en zonas residenciales, escolares y hospitalarias, siempre priorizando la **seguridad del peatón** y la calidad del aire. Se prohíbe exceder estos límites bajo cualquier circunstancia.",
+    "palabras_clave": [
+      "Límites de velocidad",
+      "vías urbanas",
+      "zonas residenciales",
+      "zonas escolares",
+      "autoridades locales",
+      "seguridad del peatón",
+      "60 km/h"
+    ],
+    "sanciones/multas": [
+      "Exceder los límites de velocidad: Multa (Infracciones C.31, C.32, C.33 o D.8, según el exceso)."
+    ]
+  },
+  {
+    "numero_articulo": 72,
+    "titulo_articulo": "Límites de Velocidad en Carreteras Nacionales y Departamentales",
+    "capitulo": "Límites de Velocidad (Capítulo II, Título X)",
+    "resumen": "Establece los **límites máximos de velocidad** en las **carreteras nacionales y departamentales**. El límite general es de **90 km/h** para vehículos de servicio particular, y un límite menor para vehículos de servicio público, buses y vehículos de carga. El Ministerio de Transporte puede fijar límites superiores (hasta **120 km/h**) en vías de doble calzada y túneles, con base en estudios técnicos. En todo caso, la velocidad máxima en zonas de alto riesgo o cercanas a centros poblados no debe exceder los 50 km/h.",
+    "palabras_clave": [
+      "Límites de velocidad",
+      "carreteras nacionales",
+      "vías departamentales",
+      "90 km/h",
+      "120 km/h",
+      "servicio público",
+      "Ministerio de Transporte",
+      "estudios técnicos"
+    ],
+    "sanciones/multas": [
+      "Exceder los límites de velocidad: Multa (Infracciones C.31, C.32, C.33 o D.8, según el exceso)."
+    ]
+  },
+  {
+    "numero_articulo": 73,
+    "titulo_articulo": "Velocidad de Vehículos de Carga",
+    "capitulo": "Límites de Velocidad (Capítulo II, Título X)",
+    "resumen": "Los vehículos que transportan **cargas extradimensionadas o extrapesadas** deben circular a velocidades inferiores a las máximas permitidas. La **velocidad máxima** de estos vehículos no debe exceder los **30 km/h** en zonas planas y debe ser reducida aún más en pendientes. Su circulación debe hacerse con **escolta** y con la **autorización** especial del Ministerio de Transporte, cumpliendo con las condiciones de seguridad y señalización requeridas, debido al alto riesgo que representan para la infraestructura vial y la seguridad.",
+    "palabras_clave": [
+      "Vehículos de carga",
+      "carga extradimensionada",
+      "carga extrapesada",
+      "velocidad máxima",
+      "30 km/h",
+      "escolta",
+      "seguridad"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 74,
+    "titulo_articulo": "Prohibiciones de Velocidad",
+    "capitulo": "Límites de Velocidad (Capítulo II, Título X)",
+    "resumen": "Se establecen **prohibiciones** específicas sobre la velocidad de conducción, independientemente de los límites máximos. Está prohibido conducir a una **velocidad excesiva** cuando las condiciones del clima, la vía, el tráfico o el vehículo lo desaconsejen. En particular, se prohíbe **competir** o realizar **piques** en vías públicas, lo que es considerado una conducta de alto riesgo para la seguridad vial.",
+    "palabras_clave": [
+      "Prohibiciones de velocidad",
+      "velocidad excesiva",
+      "condiciones adversas",
+      "competencias ilegales",
+      "piques",
+      "seguridad vial"
+    ],
+    "sanciones/multas": [
+      "Participar en competencias de velocidad ilegales: Multa e Inmovilización (Infracción D.9, tipo D)."
+    ]
+  },
+  {
+    "numero_articulo": 75,
+    "titulo_articulo": "Uso de Canales de Tránsito",
+    "capitulo": "Reglas para el Tráfico en General (Capítulo III, Título X)",
+    "resumen": "Los vehículos deben circular por su respectivo **carril** y en el sentido correcto de la vía. Se establece que el carril izquierdo (rápido) debe usarse para **adelantar** y se debe retomar el carril derecho (lento) tan pronto sea posible. Los vehículos pesados deben usar siempre los **carriles de la derecha** para no obstaculizar el flujo vehicular. Se prohíbe circular en contravía o cambiar de carril sin la debida precaución y señalización.",
+    "palabras_clave": [
+      "Canales de tránsito",
+      "carril",
+      "sentido de la vía",
+      "adelantamiento",
+      "vehículos pesados",
+      "derecha",
+      "izquierda"
+    ],
+    "sanciones/multas": [
+      "Conducir en sentido contrario al estipulado: Multa (Infracción D.4, tipo D)."
+    ]
+  },
+  {
+    "numero_articulo": 76,
+    "titulo_articulo": "Lugares Prohibidos para Adelantar",
+    "capitulo": "Reglas para el Tráfico en General (Capítulo III, Título X)",
+    "resumen": "Se enumeran los lugares donde está **estrictamente prohibido adelantar** a otros vehículos, debido al alto riesgo de colisión. Estos lugares incluyen: **curvas**, **túneles**, puentes, pasos a nivel, intersecciones, cerca de la cumbre de una pendiente, en los cruces de peatones (**cebras**), y donde la **línea central** de la calzada sea continua (amarilla o blanca). El adelantamiento debe hacerse siempre por la izquierda y con plena visibilidad.",
+    "palabras_clave": [
+      "Adelantamiento prohibido",
+      "curvas",
+      "intersecciones",
+      "túneles",
+      "cebras",
+      "línea continua",
+      "riesgo de colisión",
+      "visibilidad"
+    ],
+    "sanciones/multas": [
+      "Adelantar en lugares prohibidos: Multa (Infracción C.19, tipo C)."
+    ]
+  },
+  {
+    "numero_articulo": 77,
+    "titulo_articulo": "Adelantamiento por la Derecha",
+    "capitulo": "Reglas para el Tráfico en General (Capítulo III, Título X)",
+    "resumen": "Regula el **adelantamiento por la derecha**, estableciendo que esta maniobra **solo está permitida** en dos situaciones específicas: 1. Cuando el vehículo al que se va a adelantar va a **girar a la izquierda** y ha indicado su intención, dejando espacio suficiente; y 2. En las **vías urbanas** donde existan dos o más carriles en el mismo sentido y el conductor del carril izquierdo circule a una velocidad anormalmente baja. Fuera de estas excepciones, el adelantamiento se hará siempre por el carril izquierdo.",
+    "palabras_clave": [
+      "Adelantamiento por la derecha",
+      "excepciones",
+      "giro a la izquierda",
+      "múltiples carriles",
+      "vías urbanas",
+      "prohibición general"
+    ],
+    "sanciones/multas": [
+      "Adelantar a otro vehículo por la derecha en sitios no permitidos: Multa (Infracción C.20, tipo C)."
+    ]
+  },
+  {
+    "numero_articulo": 78,
+    "titulo_articulo": "Distancia de Seguridad",
+    "capitulo": "Reglas para el Tráfico en General (Capítulo III, Título X)",
+    "resumen": "Todo conductor debe mantener una **distancia prudente y segura** con el vehículo que lo antecede. Esta distancia debe ser suficiente para permitir la **detención** sin colisionar en caso de una frenada repentina o de emergencia. La distancia de seguridad debe ser mayor en condiciones adversas (lluvia, neblina, vía mojada) o al conducir vehículos pesados. El Código promueve la regla de los **dos segundos** para estimar la distancia mínima.",
+    "palabras_clave": [
+      "Distancia de seguridad",
+      "distancia prudente",
+      "frenada",
+      "colisión",
+      "regla de los dos segundos",
+      "condiciones adversas",
+      "vehículos pesados"
+    ],
+    "sanciones/multas": [
+      "No mantener la distancia de seguridad reglamentaria: Multa (Infracción C.18, tipo C)."
+    ]
+  },
+  {
+    "numero_articulo": 79,
+    "titulo_articulo": "Intersecciones",
+    "capitulo": "Reglas para el Tráfico en General (Capítulo III, Título X)",
+    "resumen": "En una **intersección** donde no haya señalización que regule la prioridad, el conductor debe **ceder el paso** a quien se encuentre circulando por la vía principal o a quien llegue por la **derecha** (regla general). En todo caso, antes de ingresar a una intersección, el conductor debe asegurarse de que la vía está libre y de que su maniobra no obstaculice el flujo vehicular o ponga en riesgo a otros usuarios. La prioridad es especialmente estricta en las **glorietas** (rotondas).",
+    "palabras_clave": [
+      "Intersecciones",
+      "prioridad de paso",
+      "regla de la derecha",
+      "ceder el paso",
+      "glorietas",
+      "obstaculización",
+      "seguridad"
+    ],
+    "sanciones/multas": [
+      "No ceder el paso en una intersección o glorieta: Multa (Infracción D.4, tipo D)."
+    ]
+  },
+  {
+    "numero_articulo": 80,
+    "titulo_articulo": "Curvas y Pendientes",
+    "capitulo": "Reglas para el Tráfico en General (Capítulo III, Título X)",
+    "resumen": "Al aproximarse a una **curva** o una **pendiente**, el conductor debe **reducir la velocidad** y mantener la derecha de su carril. Está terminantemente **prohibido adelantar** en curvas o en la cima de una pendiente donde la **visibilidad** es limitada. Al descender una pendiente prolongada, el conductor debe usar el **freno de motor** y no solo el sistema de frenos de pie, para evitar el sobrecalentamiento y la pérdida de control.",
+    "palabras_clave": [
+      "Curvas",
+      "pendientes",
+      "reducir velocidad",
+      "adelantamiento prohibido",
+      "visibilidad limitada",
+      "freno de motor",
+      "seguridad"
+    ],
+    "sanciones/multas": [
+      "Adelantar en curva o pendiente: Multa (Infracción C.19, tipo C)."
+    ]
+  },
+  {
+    "numero_articulo": 81,
+    "titulo_articulo": "Uso de Carriles",
+    "capitulo": "Reglas para el Tráfico en General (Capítulo III, Título X)",
+    "resumen": "En vías de **doble calzada** con más de un carril por sentido, los vehículos más **lentos** o que no tienen intención de adelantar deben circular siempre por los **carriles de la derecha**. Los carriles de la izquierda se reservan para el **tráfico rápido** o para realizar **maniobras de adelantamiento**. Se prohíbe obstruir el tráfico circulando a velocidad reducida en el carril izquierdo, siendo esta conducta causal de sanción.",
+    "palabras_clave": [
+      "Uso de carriles",
+      "doble calzada",
+      "tráfico lento",
+      "carril de la derecha",
+      "carril de la izquierda",
+      "adelantamiento",
+      "obstrucción"
+    ],
+    "sanciones/multas": [
+      "Circular por el carril izquierdo a velocidad reducida u obstruir el tráfico: Multa (Infracción C.17, tipo C)."
+    ]
+  },
+  {
+    "numero_articulo": 82,
+    "titulo_articulo": "Giro a la Derecha",
+    "capitulo": "Giros (Capítulo IV, Título X)",
+    "resumen": "El **giro a la derecha** está permitido en las intersecciones, a menos que una señal reglamentaria lo prohíba expresamente. Antes de girar, el conductor debe **señalizar** su intención, acercarse lo más posible al borde derecho de la calzada y **ceder el paso** a los peatones y ciclistas que crucen. Debe realizar la maniobra con **precaución** y a una velocidad moderada.",
+    "palabras_clave": [
+      "Giro a la derecha",
+      "señalización",
+      "precaución",
+      "intersecciones",
+      "peatones",
+      "ciclistas",
+      "permiso"
+    ],
+    "sanciones/multas": [
+      "Girar a la derecha sin precaución o sin ceder el paso: Multa (Infracción D.4, tipo D)."
+    ]
+  },
+  {
+    "numero_articulo": 83,
+    "titulo_articulo": "Giro a la Izquierda",
+    "capitulo": "Giros (Capítulo IV, Título X)",
+    "resumen": "El **giro a la izquierda** está permitido en las intersecciones, a menos que una señal reglamentaria o el semáforo lo prohíba expresamente. Para realizarlo, el conductor debe **señalizar** su intención, ubicarse en el **carril izquierdo** de su calzada y, al girar, ceder el paso a los vehículos que vengan en sentido contrario. En **vías de doble sentido**, el giro se debe realizar desde el centro de la calzada a girar. La maniobra exige máxima **precaución**.",
+    "palabras_clave": [
+      "Giro a la izquierda",
+      "carril izquierdo",
+      "señalización",
+      "vías de doble sentido",
+      "intersecciones",
+      "precaución"
+    ],
+    "sanciones/multas": [
+      "Girar a la izquierda en sitios prohibidos: Multa (Infracción D.11, tipo D)."
+    ]
+  },
+  {
+    "numero_articulo": 84,
+    "titulo_articulo": "Prohibición de Giros",
+    "capitulo": "Giros (Capítulo IV, Título X)",
+    "resumen": "Se establecen los casos en los que está **prohibido realizar giros** (a la izquierda o a la derecha): cuando la **señalización** lo prohíba, cuando se obstaculice el tránsito, cuando se ponga en peligro a otros usuarios, o cuando se afecte la **visibilidad**. Se prohíben especialmente los giros en U en curvas, túneles, puentes y en zonas que no garanticen la seguridad y visibilidad mínima. El conductor que infrinja esta norma se somete a sanción.",
+    "palabras_clave": [
+      "Prohibición de giros",
+      "giro en U",
+      "seguridad vial",
+      "señalización reglamentaria",
+      "obstaculización",
+      "túneles",
+      "curvas"
+    ],
+    "sanciones/multas": [
+      "Realizar giros prohibidos (incluido el giro en U): Multa (Infracción D.10, tipo D)."
+    ]
+  },
+  {
+    "numero_articulo": 85,
+    "titulo_articulo": "Lugares Prohibidos para Estacionar",
+    "capitulo": "Estacionamiento (Capítulo V, Título X)",
+    "resumen": "Se enumeran los lugares donde está **prohibido estacionar** vehículos, dado que su presencia obstaculiza el flujo vehicular o peatonal, o pone en riesgo la seguridad. Incluye: sobre **andenes**, **zonas verdes**, carriles de bus (Transmilenio), en doble fila, a menos de cinco (5) metros de una intersección o hidrante, en puentes, curvas, túneles, frente a entradas de garajes, y en general, donde haya una **señal de prohibido estacionar**.",
+    "palabras_clave": [
+      "Estacionamiento prohibido",
+      "andenes",
+      "doble fila",
+      "intersecciones",
+      "garajes",
+      "seguridad vial",
+      "obstaculización"
+    ],
+    "sanciones/multas": [
+      "Estacionar en sitios prohibidos: Multa e Inmovilización (Infracción C.2, tipo C)."
+    ]
+  },
+  {
+    "numero_articulo": 86,
+    "titulo_articulo": "Regulación del Estacionamiento",
+    "capitulo": "Estacionamiento (Capítulo V, Título X)",
+    "resumen": "Las **autoridades de tránsito** (Alcaldes, Organismos de Tránsito) son las únicas competentes para **reglamentar el estacionamiento** en su jurisdicción, determinando zonas, horarios y tarifas (parquímetros/zonas azules). Se faculta a estas autoridades para fijar las zonas donde se permita el estacionamiento, siempre mediante la **señalización** adecuada. En las zonas de cobro regulado (Zonas Azules), el conductor debe pagar la tarifa correspondiente.",
+    "palabras_clave": [
+      "Regulación de estacionamiento",
+      "autoridades de tránsito",
+      "zonas azules",
+      "parquímetros",
+      "tarifas",
+      "jurisdicción",
+      "señalización"
+    ],
+    "sanciones/multas": []
+  },
+  {
+    "numero_articulo": 87,
+    "titulo_articulo": "Estacionamiento en Vías Rurales",
+    "capitulo": "Estacionamiento (Capítulo V, Título X)",
+    "resumen": "En **carreteras** y **vías rurales**, los vehículos solo pueden estacionarse por fuera de la **calzada** (berma o zonas de parqueo), siempre que no obstaculicen el tránsito. Si por fuerza mayor deben detenerse en la calzada, el conductor está obligado a colocar de inmediato las **señales de peligro** (triángulos reflectivos, luces intermitentes) a una distancia prudente para advertir a los demás conductores y evitar colisiones por alcance.",
+    "palabras_clave": [
+      "Vías rurales",
+      "carreteras",
+      "estacionamiento",
+      "berma",
+      "señales de peligro",
+      "triángulos reflectivos",
+      "colisión por alcance"
+    ],
+    "sanciones/multas": [
+      "Estacionar sin colocar las señales de peligro: Multa (Infracción D.4, tipo D)."
+    ]
+  },
+  {
+    "numero_articulo": 88,
+    "titulo_articulo": "Estacionamiento Prohibido en Vías de Doble Calzada",
+    "capitulo": "Estacionamiento (Capítulo V, Título X)",
+    "resumen": "En las **vías de doble calzada** (carreteras con separador central) está **prohibido estacionar** permanentemente en el carril de la izquierda, o en el separador. En casos de emergencia o fuerza mayor, solo se permite la detención momentánea y siempre con la debida **señalización** de peligro. La prohibición busca evitar la obstrucción y el alto riesgo que representa una detención en vías de alta velocidad.",
+    "palabras_clave": [
+      "Doble calzada",
+      "prohibido estacionar",
+      "separador central",
+      "emergencia",
+      "señalización de peligro",
+      "alta velocidad"
+    ],
+    "sanciones/multas": [
+      "Estacionar en el carril izquierdo de una vía rápida: Multa (Infracción C.2, tipo C)."
+    ]
+  },
+  {
+    "numero_articulo": 89,
+    "titulo_articulo": "Prelación de Vías",
+    "capitulo": "Prelación (Capítulo VI, Título X)",
+    "resumen": "Establece el orden de **prelación** o prioridad de paso en las intersecciones, en ausencia de semáforos o señales. Las vías de mayor jerarquía (**avenidas** o **troncales**) tienen prelación sobre las de menor jerarquía (**calles o carreras locales**). El vehículo que circula por una vía de mayor jerarquía tiene derecho a continuar la marcha. El conductor que ingrese a una vía principal debe ceder el paso, incluso si viene por la derecha.",
+    "palabras_clave": [
+      "Prelación de vías",
+      "prioridad de paso",
+      "intersecciones",
+      "avenidas",
+      "troncales",
+      "vía principal",
+      "ceder el paso"
+    ],
+    "sanciones/multas": [
+      "No ceder el paso o tener la prelación: Multa (Infracción D.4, tipo D)."
+    ]
+  },
+  {
+    "numero_articulo": 90,
+    "titulo_articulo": "Derecho de Vía",
+    "capitulo": "Prelación (Capítulo VI, Título X)",
+    "resumen": "Consagra el **derecho de vía** o la prioridad de paso en favor de ciertos usuarios o circunstancias especiales. Tienen prioridad los **peatones** y **ciclistas** que estén cruzando correctamente; los **vehículos de emergencia** en servicio; y, en general, los vehículos que circulan por una **glorieta**. Aunque se tenga el derecho de vía, todo conductor debe actuar con **prudencia** y no hacer uso de su prioridad si ello pone en riesgo la vida o la seguridad de otros usuarios.",
+    "palabras_clave": [
+      "Derecho de vía",
+      "prioridad de paso",
+      "peatones",
+      "ciclistas",
+      "vehículos de emergencia",
+      "glorieta",
+      "prudencia"
+    ],
+    "sanciones/multas": [
+      "Usar indebidamente la prioridad o el derecho de vía: Multa (Infracción D.4, tipo D)."
+    ]
+  }
+]
